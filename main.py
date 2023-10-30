@@ -162,3 +162,6 @@ if __name__=='__main__':
     dict_url.update({'v2订阅': new_v2_list})
     with open(path_yaml, 'w',encoding="utf-8") as f:
         data = yaml.dump(dict_url, f,allow_unicode=True)
+
+    with open('latest.yaml', 'w',encoding="utf-8") as f:
+        yaml.dump(dict_url, f,allow_unicode=True)
