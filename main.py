@@ -53,7 +53,7 @@ def get_channel_http(channel_url):
             data = resp.text
         url_list = re.findall("https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]", data)  # 使用正则表达式查找订阅链接并创建列表
         text_list = re.findall("vmess://[^\s<]+|vless://[^\s<]+|ss://[^\s<]+|ssr://[^\s<]+|trojan://[^\s<]+", data)
-        print(text_list)
+        # print(text_list)
         logger.info(channel_url+'\t获取成功')
     except Exception as e:
         logger.warning(channel_url+'\t获取失败')
