@@ -8,7 +8,7 @@ from loguru import logger
 from tqdm import tqdm
 from retry import retry
 from urllib.parse import unquote
-from retrying import retry
+# from retrying import retry
 
 from pre_check import pre_check
 
@@ -46,7 +46,7 @@ def get_config():
     return new_list
 
 @logger.catch
-@retry(stop_max_attempt_number=10,stop_max_delay=1000)
+# @retry(stop_max_attempt_number=10,stop_max_delay=1000)
 def get_channel_http(channel_url):
     try:
         with requests.post(channel_url) as resp:
