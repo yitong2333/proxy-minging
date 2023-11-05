@@ -7,6 +7,8 @@ import requests
 from loguru import logger
 from tqdm import tqdm
 from retry import retry
+from urllib.parse import unquote
+from retrying import retry
 
 from pre_check import pre_check
 
@@ -44,40 +46,25 @@ def get_config():
     return new_list
 
 @logger.catch
+@retry(stop_max_attempt_number=10,stop_max_delay=1000)
 def get_channel_http(channel_url):
     try:
         with requests.post(channel_url) as resp:
             data = resp.text
         url_list = re.findall("https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]", data)  # 使用正则表达式查找订阅链接并创建列表
+        text_list = re.findall("vmess://[^\s<]+|vless://[^\s<]+|ss://[^\s<]+|ssr://[^\s<]+|trojan://[^\s<]+", data)
+        print(text_list)
         logger.info(channel_url+'\t获取成功')
     except Exception as e:
         logger.warning(channel_url+'\t获取失败')
         logger.error(channel_url+e)
         url_list = []
+        text_list = []
     finally:
-        return url_list
-
-# @logger.catch
-# def get_channel_http(channel_url):
-#     headers = {
-#         'Referer': 'https://t.me/s/wbnet',
-#         'sec-ch-ua-mobile': '?0',
-#         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
-#     }
-#     try:
-#         with requests.post(channel_url,headers=headers) as resp:
-#             data = resp.text
-#         url_list = re.findall("https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]", data)  # 使用正则表达式查找订阅链接并创建列表
-#         logger.info(channel_url+'\t获取成功')
-#     except Exception as e:
-#         logger.error('channel_url',e)
-#         logger.warning(channel_url+'\t获取失败')
-#         url_list = []
-#     finally:
-#         return url_list
+        return url_list, text_list
 
 def filter_base64(text):
-    ss = ['ss://','ssr://','vmess://','trojan://']
+    ss = ['ss://','ssr://','vmess://','trojan://','vless://']
     for i in ss:
         if i in text:
             return True
@@ -130,9 +117,11 @@ if __name__=='__main__':
     logger.info('读取config成功')
     #循环获取频道订阅
     url_list = []
+    proxy_list = []
     for channel_url in list_tg:
-        temp_list = get_channel_http(channel_url)
-        url_list.extend(temp_list)
+        temp_url_list, temp_text_list = get_channel_http(channel_url)
+        url_list.extend(temp_url_list)
+        proxy_list.extend(temp_text_list)
     logger.info('开始筛选---')
     thread_max_num = threading.Semaphore(32)  # 32线程
     bar = tqdm(total=len(url_list), desc='订阅筛选：')
@@ -154,9 +143,11 @@ if __name__=='__main__':
     new_sub_list.extend(old_sub_list)
     new_clash_list.extend(old_clash_list)
     new_v2_list.extend(old_v2_list)
-    new_sub_list = list(set(new_sub_list))
-    new_clash_list = list(set(new_clash_list))
-    new_v2_list = list(set(new_v2_list))
+    new_sub_list = sorted(set(new_sub_list))
+    new_clash_list = sorted(set(new_clash_list))
+    new_v2_list = sorted(set(new_v2_list))
+    new_proxy_list = sorted(set(proxy_list))
+
     dict_url.update({'机场订阅':new_sub_list})
     dict_url.update({'clash订阅': new_clash_list})
     dict_url.update({'v2订阅': new_v2_list})
@@ -165,3 +156,8 @@ if __name__=='__main__':
 
     with open('latest.yaml', 'w',encoding="utf-8") as f:
         yaml.dump(dict_url, f,allow_unicode=True)
+
+    with open('v2ray.txt', 'w', encoding="utf-8") as f:
+        for line in proxy_list:
+            f.write(unquote(line))
+            f.write('\n')
