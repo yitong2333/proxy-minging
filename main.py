@@ -123,7 +123,7 @@ if __name__=='__main__':
         url_list.extend(temp_url_list)
         proxy_list.extend(temp_text_list)
     logger.info('开始筛选---')
-    thread_max_num = threading.Semaphore(32)  # 32线程
+    thread_max_num = threading.Semaphore(64)
     bar = tqdm(total=len(url_list), desc='订阅筛选：')
     thread_list = []
     for url in url_list:
