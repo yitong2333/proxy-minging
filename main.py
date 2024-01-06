@@ -157,6 +157,11 @@ if __name__=='__main__':
     with open('latest.yaml', 'w',encoding="utf-8") as f:
         yaml.dump(dict_url, f,allow_unicode=True)
 
+    with open('url.txt', 'w', encoding="utf-8") as f:
+        for line in url_list:
+            f.write(line)
+            f.write('\n')
+
     with open('v2ray.txt', 'w', encoding="utf-8") as f:
         for line in proxy_list:
             f.write(unquote(line))
