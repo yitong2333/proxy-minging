@@ -120,9 +120,13 @@ if __name__=='__main__':
     proxy_list = []
     for channel_url in list_tg:
         temp_url_list, temp_text_list = get_channel_http(channel_url)
-        url_list.extend(temp_url_list)
+        # url_list.extend(temp_url_list)
+        for url in temp_url_list:
+            if 'subscribe' in url:
+                url_list.append(url)
         proxy_list.extend(temp_text_list)
     logger.info('开始筛选---')
+    url_list = list(set(url_list))
     thread_max_num = threading.Semaphore(64)
     bar = tqdm(total=len(url_list), desc='订阅筛选：')
     thread_list = []
