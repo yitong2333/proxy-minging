@@ -1,8 +1,10 @@
 clash订阅:
 - https://clash.shinvck.com/clash.yml
 - https://fku-ppg.co.uk/?clash=3
+- https://ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 v2订阅:
+- https://ghproxy.com/https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 - https://raw.gitmirror.com/ripaojiedian/freenode/main/sub
 机场订阅:
@@ -37,6 +39,7 @@ v2订阅:
 - https://sub.riolu.link/api/v1/client/subscribe?token=85767f48cea67e6f7652bf6c6e9d5b69&amp;flag=clash
 - https://sub.ssr.sh/link/HfOXnApIp6NGVIKs?clash=1
 - https://sub.ssr.sh/link/VjZ5w59MZvcgPeuz?clash=1
+- https://sub3.jie-quick.buzz/api/v1/client/subscribe?token=4922263ac084a8daa39c93b38c3772fc
 - https://sub4.91qaq.lol/api/v1/client/subscribe?token=08533a7c2f0a56df4f409375322bfca1
 - https://v.spwvpn.com/api/v1/client/subscribe?token=1890c9efad9e237471de7007088d7f89
 - https://v.spwvpn.com/api/v1/client/subscribe?token=37c7651c52ee8e08828bedc5cec910eb
