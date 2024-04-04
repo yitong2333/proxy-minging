@@ -122,7 +122,7 @@ if __name__=='__main__':
         temp_url_list, temp_text_list = get_channel_http(channel_url)
         # url_list.extend(temp_url_list)
         for url in temp_url_list:
-            for i in ['sub', 'clash']:
+            for i in ['sub', 'clash', 'paste']:
                 if i in url:
                     url_list.append(url)
         proxy_list.extend(temp_text_list)
