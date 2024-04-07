@@ -35,7 +35,6 @@ ssr://MTU2LjI1MS4xNzkuMzQ6NDY1Om9yaWdpbjpjaGFjaGEyMC1pZXRmLXBvbHkxMzA1OnBsYWluOl
 ss://YWVzLTEyOC1nY206MjAyMzA4MzEyMzU4MDAwMDAwMDAwMDIw@nearoute.jp.securevpn.cc:1020?plugin=obfs-local;obfs=http;obfs-host=bulianglin.com;fast-open=true#🇯🇵 Nearoute
 vless://a5634409-3a7c-4865-aea6-6e49b18904f7@47.74.42.111:2087/?type=ws&amp;encryption=none&amp;flow=&amp;host=jp3.vlessx.us&amp;path=/?ed=2048&amp;security=tls&amp;sni=jp3.vlessx.us#CF日本移動聯通友好
 vless://4c03d139-631b-41dd-be68-933c3df0d7c2@yh1.dtku41.xyz:443?path=/?ed=2048&amp;security=tls&amp;encryption=none&amp;host=qifei2024.dns.army&amp;type=ws&amp;sni=qifei2024.dns.army#不定期重置UUID
-trojan://85bce006-4885-11ee-8792-f23c9164ca5d@176.32.35.167:1007?security=tls&amp;sni=004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com&amp;type=tcp&amp;headerType=none#TG频道:@hkaa0 |俄罗斯
 trojan://9d9e1051-aa4f-44ce-86b8-912d993fa4e2@china2.one.edu.kg:12025?security=tls&amp;sni=cdn.alibaba.com&amp;type=tcp&amp;headerType=none#TG频道:@hkaa0 
 trojan://1194cb2a-af73-465b-bf0c-c66a28e58200@ty11t.twty.dynu.net:13761?security=tls&amp;sni=ty11t.twty.dynu.net&amp;type=tcp&amp;headerType=none#TG频道:@hkaa0 |台湾
 trojan://1194cb2a-af73-465b-bf0c-c66a28e58200@36.226.146.206:19489?security=tls&amp;sni=b22.ntbq.dynu.net&amp;type=tcp&amp;headerType=none#TG频道:@hkaa0 |台湾
@@ -128,6 +127,8 @@ ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.180.156.133:443#TG频道:@hkaa0▓韩国
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.215.156.208:443#TG频道:@hkaa0▓新加坡
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyS2N3SWg0NnJ3YzBuZ3Z3S3BHNmtp@92.246.138.25:35915#俄罗斯联邦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNzkwYWEzMS1jNzljLTRiODgtYWU4Mi03MjMzMjI4NGJkMTc@
 vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@miracle.bilibili.ovh:80/?type=ws&amp;encryption=none&amp;flow=&amp;host=fucken.aws&amp;path=/?ed=2048#@aries_init-AnyCastNode
 vmess://eyJhZGQiOiJmYXN0bHkuYWxpcGF5Lm92aCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoibm1zbC5rcCIsImlkIjoiNjZjY2IxMWYtNzVhNy00MjgyLThhNjAtMzFmZWQ0NDc0MDFkIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FyaWVzP2VkXHUwMDNkMjU2MCIsInBvcnQiOiI4MCIsInBzIjoiQGFyaWVzX2luaXQg5rOi5YWw5YWl5Y+jMSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJiZWlqaW5nLm1mYS5lZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoib3Blbi5hbGlwYXkub3ZoIiwiaWQiOiI2NmNjYjExZi03NWE3LTQyODItOGE2MC0zMWZlZDQ0NzQwMWQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwIiwicHMiOiJAYXJpZXNfaW5pdCDms6LlhbDlhaXlj6MyIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
