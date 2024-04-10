@@ -35,16 +35,6 @@ ssr://MTU2LjI1MS4xNzkuMzQ6NDY1Om9yaWdpbjpjaGFjaGEyMC1pZXRmLXBvbHkxMzA1OnBsYWluOl
 ss://YWVzLTEyOC1nY206MjAyMzA4MzEyMzU4MDAwMDAwMDAwMDIw@nearoute.jp.securevpn.cc:1020?plugin=obfs-local;obfs=http;obfs-host=bulianglin.com;fast-open=true#🇯🇵 Nearoute
 vless://a5634409-3a7c-4865-aea6-6e49b18904f7@47.74.42.111:2087/?type=ws&amp;encryption=none&amp;flow=&amp;host=jp3.vlessx.us&amp;path=/?ed=2048&amp;security=tls&amp;sni=jp3.vlessx.us#CF日本移動聯通友好
 vless://4c03d139-631b-41dd-be68-933c3df0d7c2@yh1.dtku41.xyz:443?path=/?ed=2048&amp;security=tls&amp;encryption=none&amp;host=qifei2024.dns.army&amp;type=ws&amp;sni=qifei2024.dns.army#不定期重置UUID
-trojan://27876_t7d7f4e3f@23.142.200.175:443/?type=tcp&amp;security=tls&amp;allowInsecure=1#TG频道:@hkaa0
-trojan://f37a931d-7092-48fe-b82f-a98da3040eb2@95.164.68.116:2053/?type=tcp&amp;security=tls&amp;allowInsecure=1#TG频道:@hkaa0
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFQ0dHVnFkdWFhdGY1Y3ZmV0xCeVFN@13.94.97.124:44365#TG频道:@hkaa0▓爱尔兰
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p236.panda004.net:42839#TG频道:@hkaa0▓韩国
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p234.panda004.net:58449#TG频道:@hkaa0▓韩国
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p236.panda004.net:42839#TG频道:@hkaa0▓韩国
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.180.156.133:443#TG频道:@hkaa0▓韩国
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.215.156.208:443#TG频道:@hkaa0▓新加坡
-vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InB0Mi12bWVzcy5zc2htYXgueHl6IiwiaWQiOiJhMTc0ZTQ5Yy1iNjlhLTQ1NGMtYThiZC05NGRlYmM3ZTRmNTkiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiODAiLCJwcyI6IlRH6aKR6YGTOkBoa2FhMCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiI0Ny4xMDYuMTEyLjExNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI3YzFkOTg2OS1lY2FjLTRjYTYtYjdlNy1lY2I2MGY1MDMwNzgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJUR+mikemBkzpAaGthYTAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNTAxYzgyYzcyZDc5MGI4@119.23.104.213:8474#TG频道:@hkaa0 |中国
 ss://YWVzLTEyOC1nY206ZTQxYjhiMDAtZDk0MC00MDA2LTgwZmYtYmM3ODY1YjNiNWUw@v3-js-us.as9929.uk:29483#TG频道:@hkaa0 |中国
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YzcwOWUzZC1mNzMzLTRiMDgtODUzZC0yYzgxYzRmMzkzYjU=@gz.quanstring.top:25519#TG频道:@hkaa0 |中国
@@ -65,6 +55,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZZ0FXTDg1THI4YlZlUzdHYTIwYWVR@50.114.177.41:
 ss://YWVzLTEyOC1nY206b2l3eW00b3ZJNFli@61.224.79.46:81#TG频道:@hkaa0 |台湾
 ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.114.114.208:6697#TG频道:@hkaa0 |美国
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSYWQzM3hhVA==@47.96.69.161:10001#TG频道:@hkaa0 |中国
+trojan://4d48aeee-ee05-426e-b35b-8b1ccfd74e3d@sg01.freeflyingcloud.xyz:35702?type=tcp&amp;allowInsecure=1#TG频道:@hkaa0|新加坡
+vmess://eyJ2IjoiMiIsInBzIjoiVEfpopHpgZM6QGhrYWEwfOWKoOaLv+WkpyIsImFkZCI6IjE1OC41MS4xMjMuMTExIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwidGxzIjoidGxzIn0=
+vmess://eyJ2IjoiMiIsInBzIjoiVEfpopHpgZM6QGhrYWEw4paT576O5Zu9IiwiYWRkIjoiMjMuMTU0LjEzNi4yIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwidGxzIjoidGxzIn0=
+vmess://eyJ2IjoiMiIsInBzIjoiVEfpopHpgZM6QGhrYWEw4paT576O5Zu9IiwiYWRkIjoiMTA0LjIxLjIzNC4xMDYiLCJwb3J0Ijo4MDgwLCJpZCI6IjI3MjczM2NiLTMzMTAtNGViYS1iYjlmLThhMzk5ODJjNTU0ZSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6InVzMi5sYW9iaWRlbmcueHl6IiwicGF0aCI6Ii8iLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoiVEfpopHpgZM6QGhrYWEw4paT576O5Zu9IiwiYWRkIjoiMTA0LjIxLjIzNC4xMjIiLCJwb3J0Ijo4MDgwLCJpZCI6IjI3MjczM2NiLTMzMTAtNGViYS1iYjlmLThhMzk5ODJjNTU0ZSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6InVzMi5sYW9iaWRlbmcueHl6IiwicGF0aCI6Ii8iLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoiVEfpopHpgZM6QGhrYWEw4paT5b635oSP5b+X6IGU6YKm5YWx5ZKM5Zu9IiwiYWRkIjoiMjMuMTU4LjU2LjYwIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwidGxzIjoidGxzIn0=
 vless://f16340a1-aa6b-4312-a94c-0933e0d4402e@20.6.128.122:29385?type=tcp&amp;security=reality&amp;sni=music.apple.com&amp;pbk=S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4&amp;flow=xtls-rprx-vision&amp;fp=chrome#hk2|tWE0.love@xray.com
 vless://54f9ae53-20ee-4e15-85c5-824fcdbf7cb8@20.6.128.122:20771?type=tcp&amp;security=reality&amp;sni=music.apple.com&amp;pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&amp;flow=xtls-rprx-vision&amp;fp=chrome#hk|0cpu.love@xray.com
 vless://bm9uZTo0YzNlYTNlZS0yZTVlLTQyMGItYjgxYi04ZTY2ZjY3MjYwMDNAYjMzLm50YnEuZHludS5uZXQ6ODQ0Mw?remarks=永久公益⚡️优质订阅⚡️⚡️每日更新⚡️⚡️⚡️自助白嫖_12&amp;obfs=none&amp;tls=1&amp;peer=
@@ -98,11 +94,23 @@ vmess://eyJhZGQiOiIxMDQuMjEuNC4xNCIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzUi
 vmess://eyJhZGQiOiIxNzIuNjcuMjIzLjI0MiIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzYiLCJwb3J0IjoiMjA4NiIsImlkIjoiN2Q5M2U5OTItNDhjZi00MmQ0LTg0ZjgtNzU3NjhlODE1YTRjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoiYWRtaW4uYXJ6b25ob3N0LmlyIiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
 vmess://eyJhZGQiOiIxMDQuMjEuNy4xNjIiLCJ2IjoyLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvV83IiwicG9ydCI6IjIwODciLCJpZCI6IjUyMGE1ZjQ1LWQzNTQtNDJmNC1hNjU4LTE4ZGJjMzc1NDY0NSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwiaG9zdCI6ImJhY2tlbmQuYXBwLWJyb3dzZXIub3JnIiwidGxzIjoidGxzIiwicGF0aCI6Ii9md3MifQ==
 vmess://eyJhZGQiOiJhZG1pbi5hcnpvbmhvc3QuaXIiLCJ2IjoyLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvV84IiwicG9ydCI6IjIwODYiLCJpZCI6IjdkOTNlOTkyLTQ4Y2YtNDJkNC04NGY4LTc1NzY4ZTgxNWE0YyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwiaG9zdCI6ImFkbWluLmFyem9uaG9zdC5pciIsInRscyI6IiIsInBhdGgiOiIvIn0=
-vmess://eyJhZGQiOiI0Ny45MS4xMC4yMjgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImpweW91eW91Lm1hYzJ3aW5lci5jZmQiLCJpZCI6IjAzOWZjNGU0LTkyYjAtNDg5Yy1hN2MzLWQwMmQ0MGVhYTU1MSIsIm5ldCI6IndzIiwicGF0aCI6Ii8wMzlmYzRlNCIsInBvcnQiOiIyMDUyIiwicHMiOiJqcDEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-vmess://eyJhZGQiOiI0Ny45MS4xOS4yNDkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImpweW91eW91Lm1hYzJ3aW5lci5jZmQiLCJpZCI6IjAzOWZjNGU0LTkyYjAtNDg5Yy1hN2MzLWQwMmQ0MGVhYTU1MSIsIm5ldCI6IndzIiwicGF0aCI6Ii8wMzlmYzRlNCIsInBvcnQiOiIyMDUyIiwicHMiOiJqcDIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-vmess://eyJhZGQiOiI0Ny43NC4zNC4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoianB5b3V5b3UubWFjMndpbmVyLmNmZCIsImlkIjoiMDM5ZmM0ZTQtOTJiMC00ODljLWE3YzMtZDAyZDQwZWFhNTUxIiwibmV0Ijoid3MiLCJwYXRoIjoiLzAzOWZjNGU0IiwicG9ydCI6IjIwNTIiLCJwcyI6ImpwMyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiI0Ny43NC42LjE2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJqcHlvdXlvdS5tYWMyd2luZXIuY2ZkIiwiaWQiOiIwMzlmYzRlNC05MmIwLTQ4OWMtYTdjMy1kMDJkNDBlYWE1NTEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMDM5ZmM0ZTQiLCJwb3J0IjoiMjA1MiIsInBzIjoianA0Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJGcm9udGllciBVUyBfPCIsCiAgImFkZCI6ICJDQS5wbHNiYWNrLnRvcCIsCiAgInBvcnQiOiAzNTMxOCwKICAiaWQiOiAiNjEyOWVkYTUtOTlkYS00YzA3LWRkYjAtMGM4MzBlZTg5YmIzIiwKICAiYWlkIjogMCwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAibm9uZSIsCiAgImhvc3QiOiAiIiwKICAicGF0aCI6ICIiLAogICJ0bHMiOiAidGxzIgp9
+vmess://eyJhZGQiOiIxMDcuMTQ5LjExOS40MyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEiLCJwb3J0IjoiMzcwMDAiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8wNDAzMTgxNDI1MDcifQ==
+vmess://eyJhZGQiOiIxODUuMjQ0LjIwOC4xOTYiLCJ2IjoyLCJwcyI6IvCfh7Hwn4e6X0xVX+WNouajruWgoV8yIiwicG9ydCI6IjgwODAiLCJpZCI6ImJkZDIyODQxLWM0ZDItNGFhOC1hY2YyLTk1YWE5MTI1ZjE1OSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwicGF0aCI6Ii8ifQ==
+vmess://eyJhZGQiOiIxNTYuMjI1LjY3LjI0MCIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzMiLCJwb3J0IjoiNDEwMDAiLCJpZCI6IjljMDI2ZWZlLTZhZjAtNDY1Zi1iOGMwLTNmNThjOGMyZDRjNSIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8xODA4MjAwMzMzMTgifQ==
+vmess://eyJhZGQiOiIxNTYuMjQ5LjE4LjEwNyIsInYiOjIsInBzIjoi8J+Hq/Cfh7dfRlJf5rOV5Zu9XzQiLCJwb3J0IjoiNDEwMDAiLCJpZCI6ImY5ZmEzYTljLWY3ZDUtNDE0Zi04OGU2LTY5NzA1ODVkOTk0OSIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8zNDIxMjEyMzA4MTgifQ==
+vmess://eyJhZGQiOiI0NS4xOTkuMTM4LjI0MyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzUiLCJwb3J0IjoiNDEwMDEiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8yODIwMTgyNTI1MjYifQ==
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMTk5LjE1LjcwOjQ0Mw==#🇯🇵_JP_日本_6
+vmess://eyJhZGQiOiIxMjguMTk5LjI0My4xNTciLCJ2IjoyLCJwcyI6IvCfh7jwn4esX1NHX+aWsOWKoOWdoV83IiwicG9ydCI6IjgwODAiLCJpZCI6ImJkZDIyODQxLWM0ZDItNGFhOC1hY2YyLTk1YWE5MTI1ZjE1OSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwicGF0aCI6Ii8ifQ==
+vmess://eyJhZGQiOiIxNTYuMjI1LjY3LjI0OSIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzgiLCJwb3J0IjoiNDEwMDAiLCJpZCI6Ijg0ZDFkZTExLWNlMTItNGExNS04MzEyLTEzMzgzNTZkNGFjNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8xMTI5MTEzNDA4MzAifQ==
+vmess://eyJhZGQiOiIxMzcuMTc1LjE1LjE5NyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzkiLCJwb3J0IjoiMzYwMDAiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvcGF0aC8xNDEzMTYxODIxMzUifQ==
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQEAyMjEuMTUwLjEwOS44MTo0Mjk3OA==#🇰🇷_KR_韩国_10
+ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29tQDEwOS4xMDQuMTUyLjI3OjEyMzQ1#🇦🇱_AL_阿尔巴尼亚_11
+vmess://eyJhZGQiOiIxNzAuNjQuMTI4LjkiLCJ2IjoyLCJwcyI6IvCfh6bwn4e6X0FVX+a+s+Wkp+WIqeS6ml8xMiIsInBvcnQiOiI4MDgwIiwiaWQiOiJiZGQyMjg0MS1jNGQyLTRhYTgtYWNmMi05NWFhOTEyNWYxNTkiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvIn0=
+vmess://eyJhZGQiOiJ0ZW5jZW50LmRhbWFvb29vLmNvbSIsInYiOjIsInBzIjoi8J+HqPCfh7NfQ05f5Lit5Zu9XzEzIiwicG9ydCI6IjExNDUyIiwiaWQiOiI4MmYyYTUxZi00ODhjLTQ3YjAtYjIyMy1kMTdmNDlkODY2MGQiLCJhaWQiOiI2NCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIn0=
+vmess://eyJhZGQiOiJkYXRhLWhrLXYxLnVzYWJvb2tzLmNvbS5jbiIsInYiOjIsInBzIjoi8J+HqPCfh7NfQ05f5Lit5Zu9XzE0IiwicG9ydCI6IjIwMjA2IiwiaWQiOiJiMTQ3OGUyNC00OTE2LTNhYmUtOGYxNy0xNTkzMTAxMmVjYmUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsImhvc3QiOiJkYXRhLWhrLXYxLnVzYWJvb2tzLmNvbS5jbiIsInRscyI6IiIsInBhdGgiOiIvZGViaWFuIn0=
+trojan://4ea1d07c-41c2-42b5-954d-414fee051856@df.xiguajiasu.xyz:46002#🇨🇳_CN_中国_15
+vmess://eyJhZGQiOiIxMDcuMTQ5LjExOS41MiIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzE2IiwicG9ydCI6IjM3MDAwIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiI2NCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiL3BhdGgvMzMzNDEzMTUxNTIyIn0=
+vmess://eyJhZGQiOiI0NS4xOTkuMTM4LjIxNyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzE3IiwicG9ydCI6IjQxMDAwIiwiaWQiOiJmOWZhM2E5Yy1mN2Q1LTQxNGYtODhlNi02OTcwNTg1ZDk5NDkiLCJhaWQiOiI2NCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiL3BhdGgvMjgyMDE4MjUyNTI2In0=
 vmess://eyJhZGQiOiJ3d3cudmlzYS5jb20uc2ciLCJhaWQiOiIwIiwiaG9zdCI6ImFkcmlhbi1taW5vci1jb2FzdC1kaXNhZ3JlZS50cnljbG91ZGZsYXJlLmNvbSIsImlkIjoiYTc2ZGUyYzktZWMwNi00MjFjLWFmZjMtNmQ5OWU1ZGI3NmJkIiwibmV0Ijoid3MiLCJwYXRoIjoiYTc2ZGUyYzktZWMwNi00MjFjLWFmZjMtNmQ5OWU1ZGI3NmJkLXZtIiwicG9ydCI6IjQ0MyIsInBzIjoidm0tYXJnby1yb290IiwidGxzIjoidGxzIiwic25pIjoiYWRyaWFuLW1pbm9yLWNvYXN0LWRpc2FncmVlLnRyeWNsb3VkZmxhcmUuY29tIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9Cg==
 vmess://eyJhZGQiOiJvbmVhLmZsaGEucnUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im9uZWEuZmxoYS5ydSIsImlkIjoiODlkOGVmMzEtYWRlOS00YWNhLThmYmMtMWVkYmJhNmNkYTE2IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDUyIiwicHMiOiJISyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJpcDEuYWcuY24uZXUub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJoa3Y2Mi5hZ2FnYWcubGluayIsImlkIjoiNmM2YjcwMTgtNjU0Zi00MmNjLWJiYmMtMmZmNmU1YmU4Y2Q0IiwibmV0Ijoid3MiLCJwYXRoIjoiL21hc3ZvZC9wdWJsaWMvMjAyMy8wOC8yNS8yMDIzMDgyNV8xOGEyYjQ5NmZjZl9yMV8xMjAway5tcDQiLCJwb3J0IjoiODA4MCIsInBzIjoi6aaZ5rivLeaXoOmZkOa1gemHjyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
@@ -207,14 +215,6 @@ ssr://MTgwLjE4OC4zOS44OjkxNzQ6YXV0aF9hZXMxMjhfc2hhMTpjaGFjaGEyMC1pZXRmOnBsYWluOl
 trojan://38C17B5E02864C48855DC27A3DB80EF0@528437691015237@38.145.220.62:443/?type=tcp&amp;security=tls&amp;sni=node.ubbuleu.xyz#美国2
 trojan://38C17B5E02864C48855DC27A3DB80EF0@528437691015237@38.145.220.62:443/?type=tcp&amp;security=tls&amp;sni=node.ubbuleu.xyz#美国1
 vless://5da9a558-3425-4f3f-8029-30b89fc97bb5@5.78.102.27:27710?type=tcp&amp;security=none#US HZ-20v3d0zg
-trojan://telegram-id-directvpn@15.156.225.170:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@99.79.0.29:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.59.5.162:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@3.142.109.177:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@44.230.114.78:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@51.20.194.171:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@51.21.18.123:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@18.196.126.241:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@18.196.10.17:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@18.153.136.1:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@16.171.105.150:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
@@ -227,3 +227,11 @@ trojan://telegram-id-directvpn@51.20.209.213:22222?security=tls&amp;alpn=http/1.
 trojan://telegram-id-directvpn@13.51.1.247:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@3.64.141.41:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@52.59.158.10:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.50.195.157:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.49.17.215:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.39.219.249:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.39.101.239:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@18.169.149.89:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@18.135.26.218:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@34.253.74.2:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@54.77.84.134:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
