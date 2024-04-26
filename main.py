@@ -63,7 +63,7 @@ def sub_check(url,bar):
                     if info: 
                         match = re.search(r"expire=(\d+)", info)
                         if match:
-                            expire = match.group(1)
+                            expire = int(match.group(1))
                             current_second = int(time.time())
                             logger.info(url+" expire:"+expire)
                             if expire > current_second:
