@@ -4,34 +4,15 @@ import yaml
 import threading
 import base64
 import requests
+import time
 from loguru import logger
 from tqdm import tqdm
 from retry import retry
 from urllib.parse import unquote
-# from retrying import retry
-
-from pre_check import pre_check
 
 new_sub_list = []
 new_clash_list = []
 new_v2_list = []
-
-@logger.catch
-def yaml_check(path_yaml):
-    print(os.path.isfile(path_yaml))
-    if os.path.isfile(path_yaml): #存在，非第一次
-        with open(path_yaml,encoding="UTF-8") as f:
-            dict_url = yaml.load(f, Loader=yaml.FullLoader)
-    else:
-        dict_url = {
-            "机场订阅":[],
-            "clash订阅":[],
-            "v2订阅":[]
-        }
-    # with open(path_yaml, 'w',encoding="utf-8") as f:
-    #     data = yaml.dump(dict_url, f,allow_unicode=True)
-    logger.info('读取文件成功')
-    return dict_url
 
 @logger.catch
 def get_config():
@@ -46,14 +27,12 @@ def get_config():
     return new_list
 
 @logger.catch
-# @retry(stop_max_attempt_number=10,stop_max_delay=1000)
 def get_channel_http(channel_url):
     try:
         with requests.post(channel_url) as resp:
             data = resp.text
         url_list = re.findall("https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]", data)  # 使用正则表达式查找订阅链接并创建列表
         text_list = re.findall("vmess://[^\s<]+|vless://[^\s<]+|ss://[^\s<]+|ssr://[^\s<]+|trojan://[^\s<]+|hy2://[^\s<]+|hysteria2://[^\s<]+", data)
-        # print(text_list)
         logger.info(channel_url+'\t获取成功')
     except Exception as e:
         logger.warning(channel_url+'\t获取失败')
@@ -77,12 +56,24 @@ def sub_check(url,bar):
     with thread_max_num:
         @retry(tries=2)
         def start_check(url):
-            res=requests.get(url,headers=headers,timeout=5)#设置5秒超时防止卡死
+            res=requests.get(url,headers=headers,timeout=5) # 设置5秒超时防止卡死
             if res.status_code == 200:
                 try: #有流量信息
                     info = res.headers['subscription-userinfo']
-                    info_num = re.findall('\d+',info)
-                    new_sub_list.append(url)
+                    if info: 
+                        match = re.search(r"expire=(\d+)", info)
+                        if match:
+                            expire = match.group(1)
+                            current_second = int(time.time())
+                            logger.info(url+" expire:"+expire)
+                            if expire > current_second:
+                                new_sub_list.append(url)
+                            else:
+                                logger.info('已失效:'+url)
+                        else:
+                            raise Exception
+                    else:
+                        raise Exception
                 except:
                     # 判断是否为clash
                     try:
@@ -110,9 +101,11 @@ def sub_check(url,bar):
         bar.update(1)
 
 if __name__=='__main__':
-    path_yaml = pre_check()
-    dict_url = yaml_check(path_yaml)
-    # print(dict_url)
+    dict_url = {
+        "机场订阅":[],
+        "clash订阅":[],
+        "v2订阅":[]
+    }
     list_tg = get_config()
     logger.info('读取config成功')
     #循环获取频道订阅
@@ -120,7 +113,6 @@ if __name__=='__main__':
     proxy_list = []
     for channel_url in list_tg:
         temp_url_list, temp_text_list = get_channel_http(channel_url)
-        # url_list.extend(temp_url_list)
         for url in temp_url_list:
             for i in ['sub', 'clash', 'paste']:
                 if i in url:
@@ -156,17 +148,18 @@ if __name__=='__main__':
     dict_url.update({'机场订阅':new_sub_list})
     dict_url.update({'clash订阅': new_clash_list})
     dict_url.update({'v2订阅': new_v2_list})
-    with open(path_yaml, 'w',encoding="utf-8") as f:
-        data = yaml.dump(dict_url, f,allow_unicode=True)
 
+    # 链接分组
     with open('latest.yaml', 'w',encoding="utf-8") as f:
         yaml.dump(dict_url, f,allow_unicode=True)
 
+    # 链接列表
     with open('url.txt', 'w', encoding="utf-8") as f:
         for line in url_list:
             f.write(line)
             f.write('\n')
 
+    # 直接提供的代理列表
     with open('v2ray.txt', 'w', encoding="utf-8") as f:
         for line in proxy_list:
             f.write(unquote(line))
