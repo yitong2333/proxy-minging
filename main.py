@@ -63,13 +63,14 @@ def sub_check(url,bar):
                     if info: 
                         match = re.search(r"expire=(\d+)", info)
                         if match:
-                            expire = int(match.group(1))
-                            current_second = int(time.time())
-                            logger.info(url+" expire:"+expire)
-                            if expire > current_second:
-                                new_sub_list.append(url)
-                            else:
-                                logger.info('已失效:'+url)
+                            new_sub_list.append(url)
+                            # expire = int(match.group(1))
+                            # current_second = int(time.time())
+                            # logger.info(url+" expire:"+expire)
+                            # if expire > current_second:
+                            #     new_sub_list.append(url)
+                            # else:
+                            #     logger.info('已失效:'+url)
                         else:
                             raise Exception
                     else:
