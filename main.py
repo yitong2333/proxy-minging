@@ -115,7 +115,7 @@ if __name__=='__main__':
     for channel_url in list_tg:
         temp_url_list, temp_text_list = get_channel_http(channel_url)
         for url in temp_url_list:
-            for i in ['sub', 'clash', 'paste']:
+            for i in ['sub', 'clash', 'paste', 'tt.vg']:
                 if i in url:
                     url_list.append(url)
         proxy_list.extend(temp_text_list)
