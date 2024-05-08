@@ -197,14 +197,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMjg5NTgzNjczQDIxMy41Mi4xMjguMjI3OjYyNTU1#�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMjg5NTgzNjczQDE3My4yNTUuMjAwLjg5OjYyNTU1#美国
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgzNDU0NjQwQDE3Mi4xMDUuMzAuMjM6NjI1NDg#加拿大
 vmess://YXV0bzowN2E5MDJkMS03YzJkLTQ3ZGUtZjJjNS1jMjIzNmZjN2NkNDZAdmlzYS5jbjoyMDUy?remarks=🇺🇸美国cdn加速&amp;obfsParam=usxm.inekokkk.top&amp;path=/&amp;obfs=websocket&amp;alterId=0
-trojan://telegram-id-directvpn@3.64.226.174:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@18.158.31.112:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@16.171.74.142:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.49.177.170:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@15.236.112.145:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.38.157.50:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@35.178.26.22:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@3.11.169.54:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@54.220.249.51:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@79.125.125.21:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@35.183.242.85:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
@@ -216,6 +208,14 @@ trojan://telegram-id-directvpn@51.21.139.160:22222?security=tls&amp;alpn=http/1.
 trojan://telegram-id-directvpn@13.49.111.227:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@52.59.62.136:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@3.73.13.206:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.53.166.62:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.53.62.21:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@15.236.174.172:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@52.47.203.106:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@18.135.70.129:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@35.176.117.194:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@52.51.99.33:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@99.80.15.138:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 vless://446df392-9de3-43f6-ebf0-8ba0f9d9f82f@38.181.70.15:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=446df392.com&amp;fp=chrome&amp;security=reality&amp;pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&amp;sid=&amp;packetEncoding=xudp#SG
 vmess://eyJhZGQiOiAiMjMuODMuMjI3LjI0NCIsICJwb3J0IjogNjExNzMsICJhaWQiOiA2NCwgImlkIjogIjlkMTA0M2E2LWU4N2UtNGJiNy04ODU4LWMxMTg1ZTljMGMzYiIsICJuZXQiOiAidGNwIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogMn0=
 ss://YWVzLTI1Ni1nY206YVlOZUtETXpZUVl3NEtiVWJKQThXc3pxQDY2LjExNS4xNzcuMTU2OjMxOTQ0
