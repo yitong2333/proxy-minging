@@ -138,8 +138,6 @@ vmess://eyJ2IjoiMiIsInBzIjoiSEtULU5BVC1uYXQucmVjbG91ZC5wdyIsImFkZCI6ImhrdC5yZWNs
 vmess://eyJ2IjoiMiIsInBzIjoiSEtULU5BVC1taWFvbWlhby5tb2UiLCJhZGQiOiJoa3QubWlhb2RkbnMudG9wIiwicG9ydCI6Mzk5OTYsImlkIjoiMzI0YWExYzUtNzUwNC00ODkzLTgyYjQtMTM2NTU5NjMzMWUyIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidGxzIjoiIn0=
 vless://c15b6624-9613-4344-a884-df66c33d56f0@38.150.0.196:18758?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;sni=www.sega.com&amp;pbk=qCZUdWQZ2H33vWXnOkG8NpxBeq3qn5QWXlfCOWBNkkc&amp;sid=07a67498&amp;fp=random
 vmess://eyJhZGQiOiJmYXN0bHkuYWxpcGF5Lm92aCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoibm1zbC5rcCIsImlkIjoiNjZjY2IxMWYtNzVhNy00MjgyLThhNjAtMzFmZWQ0NDc0MDFkIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FyaWVzP2VkXHUwMDNkMjA0OCIsInBvcnQiOiI4MCIsInBzIjoi5rOi5YWwIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJEaWdpdGFsT2NlYW4gQVUgQGFyaWVzX2luaXQtbnpnanh5YTEiLAogICJhZGQiOiAiMjA5LjM4LjIwLjE3NiIsCiAgInBvcnQiOiA4MCwKICAiaWQiOiAiNGYxZjhmMWUtOTI2Yy00ZWRiLWEzOTgtODYyNzExMDk3M2YxIiwKICAibmV0IjogIndzIiwKICAi…
-vmess://eyJhZGQiOiJnby5hbGlwYXkub3ZoIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkby1hdS5hbGlwYXkub3ZoIiwiaWQiOiI0ZjFmOGYxZS05MjZjLTRlZGItYTM5OC04NjI3MTEwOTczZjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwODAiLCJwcyI6IkRpZ2l0YWxPY2VhbiBBVSBOZXcgQGFyaWVzX2luaXQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 vmess://eyJhZGQiOiJnby5hbGlwYXkub3ZoIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkby1hdS5hbGlwYXkub3ZoIiwiaWQiOiI0ZjFmOGYxZS05MjZjLTRlZGItYTM5OC04NjI3MTEwOTczZjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwOD…
 vmess://eyJhZGQiOiJnby5hbGlwYXkub3ZoIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkby1hdS5hbGlwYXkub3ZoIiwiaWQiOiI0ZjFmOGYxZS05MjZjLTRlZGItYTM5OC04NjI3MTEwOTczZjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwOD…
 vmess://YXV0bzowN2E5MDJkMS03YzJkLTQ3ZGUtZjJjNS1jMjIzNmZjN2NkNDZAdmlzYS5jbjoyMDUy?remarks=🇺🇸美国cdn加速&amp;obfsParam=usxm.inekokkk.top&amp;path=/&amp;obfs=websocket&amp;alterId=0
@@ -476,14 +474,6 @@ ssr://YW5ndWxhci1jZG4tMi50ZWxlc2NvcGVzLndvcms6MzUwMjA6YXV0aF9hZXMxMjhfbWQ1OmFlcy
 ssr://YW5ndWxhci1jZG4tMi50ZWxlc2NvcGVzLndvcms6MzUxMjE6YXV0aF9hZXMxMjhfbWQ1OmFlcy0y
 ssr://YW5ndWxhci1jZG4tMi50ZWxlc2NvcGVzLndvcms6MzUyMDg6YXV0aF9hZXMxMjhfbWQ1OmFlcy0y
 ssr://YW5ndWxhci1jZG4tMi50ZWxlc2NvcGVzLndvcms6MzUyNDM6YXV0aF9hZXMxMjhfbWQ1OmFlcy0y
-trojan://telegram-id-directvpn@15.188.220.110:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.41.139.83:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@18.175.91.114:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@52.51.233.6:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@52.50.117.125:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@15.223.98.224:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@15.156.223.216:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@3.12.137.176:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@3.131.72.49:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@54.190.82.112:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@51.21.39.12:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
@@ -496,6 +486,14 @@ trojan://telegram-id-directvpn@:22222?security=tls&amp;alpn=http/1.1&amp;headerT
 trojan://telegram-id-directvpn@:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.51.88.9:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.48.101.108:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@15.236.243.216:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@52.47.59.244:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.41.167.152:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@3.10.106.51:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@54.77.125.162:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@34.246.93.159:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 vless://446df392-9de3-43f6-ebf0-8ba0f9d9f82f@38.181.70.15:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=446df392.com&amp;fp=chrome&amp;security=reality&amp;pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&amp;sid=&amp;packetEncoding=xudp#SG
 vmess://eyJhZGQiOiAiMjMuODMuMjI3LjI0NCIsICJwb3J0IjogNjExNzMsICJhaWQiOiA2NCwgImlkIjogIjlkMTA0M2E2LWU4N2UtNGJiNy04ODU4LWMxMTg1ZTljMGMzYiIsICJuZXQiOiAidGNwIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogMn0=
 ss://YWVzLTI1Ni1nY206YVlOZUtETXpZUVl3NEtiVWJKQThXc3pxQDY2LjExNS4xNzcuMTU2OjMxOTQ0
