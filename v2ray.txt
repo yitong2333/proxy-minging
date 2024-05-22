@@ -149,6 +149,8 @@ vmess://eyJhZGQiOiJmYXN0bHkuYWxpcGF5Lm92aCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIi
 vmess://eyJhZGQiOiJnby5hbGlwYXkub3ZoIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkby1hdS5hbGlwYXkub3ZoIiwiaWQiOiI0ZjFmOGYxZS05MjZjLTRlZGItYTM5OC04NjI3MTEwOTczZjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwOD…
 vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=ton.apple&amp;path=/?ed=2560&amp;security=tls&amp;sni=www.arizona.edu#AnycastNode_TLS-University of Arizona
 vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@latin-america.alipay.ovh:80?path=/?ed=2560&amp;security=none&amp;encryption=none&amp;host=ton.apple&amp;type=ws#AnycastNode_PE-LatinAmericaIP
+vmess://eyJhZGQiOiJ3d3cuaGtidS5lZHUuaGsiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5tc2wua3AiLCJpZCI6ImMwYjA1MDAwLTIzZGQtNGRlOS05MDQxLWVjMTMwMTY2ZmYxYSIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcmllcz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiODAiLCJwcyI6IkBhcmllc19pbml0LeazouWFsFdlbGxGYXJnbyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJkbnMudG9uLm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoib3Blbi5hbGlwYXkub3ZoIiwiaWQiOiJjMGIwNTAwMC0yM2RkLTRkZTktOTA0MS1lYzEzMDE2NmZmMWEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjgwIiwicHMiOiJAYXJpZXNfaW5pdC3ms6LlhbBUeXBlQyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vmess://YXV0bzowN2E5MDJkMS03YzJkLTQ3ZGUtZjJjNS1jMjIzNmZjN2NkNDZAdmlzYS5jbjoyMDUy?remarks=🇺🇸美国cdn加速&amp;obfsParam=usxm.inekokkk.top&amp;path=/&amp;obfs=websocket&amp;alterId=0
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivPXRn6aKR6YGTOkBicGp6eDI9MSIsImFkZCI6Im1mMzNmeC5taWNsb3VkLmJ1enoiLCJwb3J0Ijo0NjAzMywiaWQiOiJiYzIzMDM0NC0xNGQ5LTQ5MjItOWZiNy0yZTY1MTNjNTU5M2UiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsImhvc3QiOiJtZjMzZngubWljbG91ZC5idXp6IiwicGF0aCI6Ii96aC1jbiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivPXRn6aKR6YGTOkBicGp6eDI9MiIsImFkZCI6Im1mMDFmeC5taWNsb3VkLmJ1enoiLCJwb3J0Ijo0NjAwMSwiaWQiOiJiYzIzMDM0NC0xNGQ5LTQ5MjItOWZiNy0yZTY1MTNjNTU5M2UiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsImhvc3QiOiJtZjAxZngubWljbG91ZC5idXp6IiwicGF0aCI6Ii96aC1jbiIsInRscyI6IiJ9
@@ -234,14 +236,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTUyNTY5MDQ0QDE3Mi4xMDUuMTYuMTQ3OjYzNDA0#�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTUyNTY5MDQ0QDEzOS4xNzcuMTg3Ljc0OjYzNDA0#新加坡
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTUyNTY5MDQ0QDcyLjE0LjE3OS4xODk6NjM0MDQ#美国
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTUyNTY5MDQ0QDE5OC41OC4xMTcuMjQ3OjYzNDA0#美国
-trojan://telegram-id-directvpn@18.199.201.198:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@18.194.255.86:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.53.252.14:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@51.21.40.58:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@15.236.67.219:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@13.39.63.60:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@3.8.224.32:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
-trojan://telegram-id-directvpn@18.169.6.18:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@54.73.169.176:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@54.73.142.124:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@52.60.243.92:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
@@ -253,6 +247,14 @@ trojan://telegram-id-directvpn@51.20.247.99:22222?security=tls&amp;alpn=http/1.1
 trojan://telegram-id-directvpn@13.48.230.224:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@52.28.233.4:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 trojan://telegram-id-directvpn@52.58.172.78:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.50.26.60:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.48.237.37:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.39.179.38:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@13.39.185.145:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@18.133.92.98:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@18.169.216.92:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@99.80.1.1:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
+trojan://telegram-id-directvpn@108.128.139.14:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#Our
 vless://446df392-9de3-43f6-ebf0-8ba0f9d9f82f@38.181.70.15:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=446df392.com&amp;fp=chrome&amp;security=reality&amp;pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&amp;sid=&amp;packetEncoding=xudp#SG
 vmess://eyJhZGQiOiAiMjMuODMuMjI3LjI0NCIsICJwb3J0IjogNjExNzMsICJhaWQiOiA2NCwgImlkIjogIjlkMTA0M2E2LWU4N2UtNGJiNy04ODU4LWMxMTg1ZTljMGMzYiIsICJuZXQiOiAidGNwIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogMn0=
 ss://YWVzLTI1Ni1nY206YVlOZUtETXpZUVl3NEtiVWJKQThXc3pxQDY2LjExNS4xNzcuMTU2OjMxOTQ0
