@@ -112,12 +112,13 @@ if __name__=='__main__':
     #循环获取频道订阅
     url_list = []
     proxy_list = []
+    allow_list = ['sub', 'clash', 'paste', 'tt.vg', 'shz.al', 'proxies']
+    deny_list = ['raw.githubusercontent.com', 'https://t.me/']
     for channel_url in list_tg:
         temp_url_list, temp_text_list = get_channel_http(channel_url)
         for url in temp_url_list:
-            for i in ['sub', 'clash', 'paste', 'tt.vg', 'shz.al', 'proxies']:
-                if i in url:
-                    url_list.append(url)
+            if any(item in url for item in allow_list) and all(item not in url for item in deny_list) : 
+                url_list.append(url)
         proxy_list.extend(temp_text_list)
     logger.info('开始筛选---')
     url_list = list(set(url_list))
