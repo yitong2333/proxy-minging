@@ -9,6 +9,7 @@ from loguru import logger
 from tqdm import tqdm
 from retry import retry
 from urllib.parse import unquote
+from datetime import datetime
 
 new_sub_list = []
 new_clash_list = []
@@ -49,6 +50,17 @@ def filter_base64(text):
             return True
     return False
 
+def is_future(timestamp):
+    if len(str(timestamp)) >= 13:
+        # 毫秒时间戳转换为秒
+        timestamp = timestamp / 1000
+
+    now = datetime.now().timestamp()
+
+    if timestamp > now:
+        return True
+    else:
+        return False
 
 @logger.catch
 def sub_check(url,bar):
@@ -63,14 +75,9 @@ def sub_check(url,bar):
                     if info: 
                         match = re.search(r"expire=(\d+)", info)
                         if match:
-                            new_sub_list.append(url)
-                            # expire = int(match.group(1))
-                            # current_second = int(time.time())
-                            # logger.info(url+" expire:"+expire)
-                            # if expire > current_second:
-                            #     new_sub_list.append(url)
-                            # else:
-                            #     logger.info('已失效:'+url)
+                            expire = int(match.group(1))
+                            if is_future(expire): 
+                                new_sub_list.append(url)
                         else:
                             raise Exception
                     else:
