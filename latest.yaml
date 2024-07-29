@@ -1,4 +1,6 @@
 clash订阅:
+- http://103.35.189.118/202407271/clash.yaml
+- http://103.35.189.118/20240728/clash.yaml
 - http://3093492f6b2332f8server.lycoris.one/api/v1/client/subscribe?token=06f54517cccb379edd1a1be807cc9c2a
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=08b9a8c1cbf7d387c6229418ee83c5d0
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=56a356adcfc20c92e14c9161fbe58835
@@ -48,7 +50,6 @@ v2订阅:
 - http://sub2086.fnyune.shop:2086/api/v1/client/subscribe?token=64bb773645b0f0e86ea37d6934460a40
 - https://abyssvpnya.net/api/v1/client/subscribe?token=5f84dc20e1960e65cf8728e547ffb1f4
 - https://api.haneda.lol/api/v1/client/subscribe?token=3283f46dcee7633257698b1281ea8dce&amp;flag=meta
-- https://api.haneda.lol/api/v1/client/subscribe?token=ff4e79401bce8c5dd6510c9620da77de&amp;flag=meta
 - https://api.ssrsub.com/api/v1/client/subscribe?token=31cf50bb67f27e40ab48132723b2ae19
 - https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz/api/v1/client/subscribe?token=9635d08e4dae217abd53733ab127183d
 - https://bansub7.bplink.xyz/api/v1/client/subscribe?token=e78b428259cd7b104b9273be1dcf97bc
