@@ -1,7 +1,6 @@
 clash订阅:
 - http://103.35.189.118/202407271/clash.yaml
 - http://103.35.189.118/20240728/clash.yaml
-- http://3093492f6b2332f8server.lycoris.one/api/v1/client/subscribe?token=06f54517cccb379edd1a1be807cc9c2a
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=08b9a8c1cbf7d387c6229418ee83c5d0
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=56a356adcfc20c92e14c9161fbe58835
 - https://api2.xn--bnq37rc0nw50b.com/api/v1/client/subscribe?token=cc2f75080bcba2d0f7333442f4f0b9fe
@@ -56,8 +55,6 @@ v2订阅:
 - https://getinfo.bigbigwatermelon.com/api/v1/client/subscribe?token=a900c285d0bead2171832f5b7bc0d9a1
 - https://lancloud.zichuanlan.top/api/v1/client/subscribe?token=cc340182eacb4e936a26fec4dbb02f89
 - https://link01.pikachucloud.site/api/v1/client/subscribe?token=cdd7a9fb8eab45a14713ecb73621cc1b
-- https://neolink.nkkc.one/api/v1/client/subscribe?token=0ec8fa1dce2d03072a8ec2a36b79ec1c
-- https://neolink.nkkc.one/api/v1/client/subscribe?token=e6b7c04a3d78c287112d728596fdd360
 - https://pqjc.site/api/v1/client/subscribe?token=9e0446eff3b9760877be511303f6e1bf&amp;flag=meta
 - https://pqjc.site/api/v1/client/subscribe?token=d72420f011a90e10350608a7fc8f3645&amp;flag=meta
 - https://pro.76898102.xyz/api/v1/client/subscribe?token=dbbe2ba40eabbfc5f584c48ffa516cd8
@@ -72,6 +69,7 @@ v2订阅:
 - https://toysforyou.top/sub/d86f0c4968ac0dac/clash
 - https://webget.yfjc.xyz/api/v1/client/subscribe?token=91ad2a2346060adc5c217d24a8722a31
 - https://wow.dogss-host.bond/api/v1/client/subscribe?token=5faebf2cc523476b1407cac3202c5484
+- https://wws.s2fjeyeeyafe.bond/api/v1/client/subscribe?token=a4bb2d2a253a62b0a105b92ee4aa8e18&amp;amp;flag=meta
 - https://wws.s2fjeyeeyafe.bond/api/v1/client/subscribe?token=a4bb2d2a253a62b0a105b92ee4aa8e18&amp;flag=meta
 - https://wws.s2fjeyeeyafe.bond/api/v1/client/subscribe?token=e0e066b5e6ea55ac90d704031505df2c&amp;flag=meta
 - https://www.360vpn.org/api/v1/client/subscribe?token=7dc615bf359491fd1da9bdedb07e9b3a
