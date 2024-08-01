@@ -1,6 +1,7 @@
 clash订阅:
 - http://103.35.189.118/202407271/clash.yaml
 - http://103.35.189.118/20240728/clash.yaml
+- http://103.35.189.118/20240801/clash.yaml
 - http://3093492f6b2332f8server.lycoris.one/api/v1/client/subscribe?token=06f54517cccb379edd1a1be807cc9c2a
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=08b9a8c1cbf7d387c6229418ee83c5d0
 - http://www.pingzicloud.top/api/v1/client/subscribe?token=56a356adcfc20c92e14c9161fbe58835
@@ -16,6 +17,7 @@ clash订阅:
 - https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+- https://shz.al/ZadR
 - https://shz.al/aNpJ
 - https://sub.hktix.net/api/v1/client/subscribe?token=c123731a47b64f267beb9e3aa2278327
 - https://sub123.71345.xyz/api/v1/client/subscribe?token=67d0e817bbb631b2aa14bfe031334415
@@ -39,14 +41,17 @@ v2订阅:
 - https://sub.shadowsokstes.workers.dev/sub
 - https://tight-poetry-5bd2.pibiko2683.workers.dev/sub/89b3cbba-e6ac-485a-9311-976a0415eab9#BPB-Normal
 机场订阅:
+- http://panda.xn--lbrx91akmhm30c.com/api/v1/client/subscribe?token=bdde3a1e8dd64ebe24f3e432130b900f
 - http://s.33y.run/v3/subscr?id=cb971d1363e54209a70efbce92ce41ef
 - http://s1.subcsyun.online/api/v1/client/subscribe?token=30db03460bbf9d093fad84d653f58af8
+- https://47.242.186.70/api/v1/client/subscribe?token=df57a404bcbd43c807d55f95377bb32a
 - https://abyssvpnya.net/api/v1/client/subscribe?token=5f84dc20e1960e65cf8728e547ffb1f4
 - https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz/api/v1/client/subscribe?token=9635d08e4dae217abd53733ab127183d
 - https://bansub7.bplink.xyz/api/v1/client/subscribe?token=e78b428259cd7b104b9273be1dcf97bc
 - https://base64.bigwatermelon.org/api/v1/client/subscribe?token=232e5ebac1ee2506b51c049c2b8caad3
 - https://bozhi.591haoka.com/api/v1/client/subscribe/token=598adee7147c414593f29c74cfade831f4d95313f786bb749ca643ea23bb0koi
 - https://cainiao172.top/api/v1/client/subscribe?token=6f2b2bc9aac4d9311a4c3fc81abca0b2&amp;flag=clash
+- https://cdn-web-api.moeu.top/api/v1/client/subscribe?token=2f0e724f9b0be6a6028d3b358bfca666
 - https://dingyue.trojanws.xyz/api/v1/client/subscribe?token=3095392f2d99ea267601a6883fd66c79
 - https://dy.ssysub6.xyz/api/v1/client/subscribe?token=3635e556c43026801256171024ff23de
 - https://fast1.baipiaoi489hy0p44ty.xyz/api/v1/client/subscribe?token=6e158b9b6ff8179869a486f7358855a7
