@@ -3,7 +3,6 @@ clash订阅:
 - http://103.35.189.118/20240728/clash.yaml
 - http://103.35.189.118/20240801/clash.yaml
 - http://104.168.244.47:12580/clash/proxies
-- http://3093492f6b2332f8server.lycoris.one/api/v1/client/subscribe?token=06f54517cccb379edd1a1be807cc9c2a
 - https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz/api/v1/client/subscribe?token=7eb7f9c181fe90a98a53d28b1a905b5d
 - https://ddd.trc20.top/api/v1/client/subscribe?token=ce48980f21e7f8dc4871c4e32392f88b
 - https://github.com/0KABE/ConfConvertor#clash
@@ -30,6 +29,7 @@ clash订阅:
 v2订阅:
 - https://bpb.sanmu.us.kg/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal
 - https://cf.hughhad.us.kg/sub/89b3cbba-e6ac-485a-9481-976a0415eab9
+- https://ghproxy.com/raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1
 - https://github.com/ssrsub/ssr/raw/master/V2Ray
 - https://github.com/ssrsub/ssr/raw/master/ss-sub
 - https://github.com/ssrsub/ssr/raw/master/ssrsub
