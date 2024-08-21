@@ -1,4 +1,5 @@
 clash订阅:
+- http://103.196.20.127/api/v1/client/subscribe?token=9ab412be1f830570f0d614ebf82f1a2e
 - http://103.196.20.127/api/v1/client/subscribe?token=9f19fcc25b9345a928f76d7832dc7537
 - http://103.196.20.127/api/v1/client/subscribe?token=b54e2034bcbba8e8e982f368d6b49fab
 - http://103.196.20.127/api/v1/client/subscribe?token=f1279af04744dd54210317fd8ca4eb46
