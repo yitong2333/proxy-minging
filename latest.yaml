@@ -1,7 +1,4 @@
 clash订阅:
-- http://103.196.20.127/api/v1/client/subscribe?token=9ab412be1f830570f0d614ebf82f1a2e
-- http://103.196.20.127/api/v1/client/subscribe?token=9f19fcc25b9345a928f76d7832dc7537
-- http://103.196.20.127/api/v1/client/subscribe?token=f1279af04744dd54210317fd8ca4eb46
 - http://103.35.189.118/20240728/clash.yaml
 - http://103.35.189.118/20240801/clash.yaml
 - https://bujidao.cc/sub?key=XOfnIze0b27ESmztFIuLkfwF4XHZ7qSA
@@ -59,7 +56,9 @@ v2订阅:
 - https://sub.shadowsokstes.workers.dev/sub
 机场订阅:
 - https://9527.bigbigwatermelon.com/api/v1/client/subscribe?token=af859bb658c5c454bc24b284d5e36e79
+- https://api.xinyo.vip/api/v1/client/subscribe?token=3493bd98dbb09cb1ba37f03a1796485e
 - https://api.xinyo.vip/api/v1/client/subscribe?token=5a563d7330dd13ce16ec909ea4257548
+- https://api.xinyo.vip/api/v1/client/subscribe?token=bb57e2195a6cabe24ed9469b3669aa0d
 - https://asa.lol/api/v1/client/subscribe?token=347a714b0c21dd7688757d70bda5b462
 - https://asa.lol/api/v1/client/subscribe?token=4d472f508b06f985da952d6a46d746d1
 - https://asa.lol/api/v1/client/subscribe?token=639fff7ed8a08de1400cb0d82309cc08
