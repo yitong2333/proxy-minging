@@ -4,6 +4,7 @@ clash订阅:
 - http://103.35.189.118/20240728/clash.yaml
 - http://103.35.189.118/20240801/clash.yaml
 - https://1.bethebest.eu.org/api/v1/client/subscribe?token=3715a07dc448ad9f275aa73e54b762b7
+- https://1.bethebest.eu.org/api/v1/client/subscribe?token=3715a07dc448ad9f275aa73e54b762b7&amp;types=vmess
 - https://bujidao.cc/sub?key=XOfnIze0b27ESmztFIuLkfwF4XHZ7qSA
 - https://clash.llleman.com/clach.yml
 - https://cloud.yydschina.top/api/v1/client/subscribe?token=7783d526d0858c934f3e424b8c25f5e2
@@ -22,6 +23,7 @@ clash订阅:
 - https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 - https://shz.al/aNpJ
 - https://sub.bujidao.org/sub?key=zTFmqBmuUx6ZXjtdI2jjbsm3EhkXYzpC
+- https://sub.xn--9sw509f.eu.org/auto
 - https://x.nsa.cc/api/v1/client/subscribe?token=888fa1629a70b5492ba21d17b1f14177
 - https://ymjc.cfd/api/v1/client/subscribe?token=bd2c2122fce04b7b49bb074ea58fc9e4
 - https://zedping8.shop/sub/WmVkcGluZy5yYXlnYW4sMTcyNDA0ODUwNwsspsQj8jBy
@@ -47,13 +49,11 @@ v2订阅:
 - https://9527.bigbigwatermelon.com/api/v1/client/subscribe?token=af859bb658c5c454bc24b284d5e36e79
 - https://a.sdwan.im/api/v1/client/subscribe?token=e78d3e6b5749e0d342b9dc12ac28f6f2
 - https://asa.lol/api/v1/client/subscribe?token=4d472f508b06f985da952d6a46d746d1
-- https://auth.newlikebooks.xyz/api/v1/client/subscribe?token=8609a1945e395789541f5b10bb7e48b5
 - https://board.nsde.date/api/v1/client/subscribe?token=84e28dd2b42173a927d7e39896350cdd
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=1e5dde33f44c9fe597e956f539d95a39
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=65c790da485e084af5536d25ae33eb88
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=b3a4ebe842dd5365ebc7820c647620dd
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=f14e52e1b15c6547e982b23481533e87
-- https://djjc.cfd/api/v1/client/subscribe?token=153acf180e380ed0816bad989ede0cdf
 - https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=239bf6f70499ff0f80ca081f0a831d04
 - https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=f5bc22005796dfccb69d10bec1e1f8f2
 - https://jc.sux.lol/api/v1/client/subscribe?token=fa7a42b68f3a7f09aa26488428f50f07
@@ -78,6 +78,7 @@ v2订阅:
 - https://subscribe85687.fengwo.info/api/v1/client/subscribe?token=2f3ef3a63770e7aa90d9607b10577437
 - https://sux.lol/api/v1/client/subscribe?token=53fbec5f4ad22aa871ae21aa9ef0c6ff
 - https://turbooserver.xyz/sub/NTg4Nzk1MzMwM19hYmE2LDE3MjU2NTYzNjIyRRhGsXoFU
+- https://wvw.guanxi.cloudns.be/api/v1/client/subscribe/token=9e48312624d64c219f8e7u9af55b4k238bh7
 - https://wws.s2fjeyeeyafe.bond/api/v1/client/subscribe?token=a4bb2d2a253a62b0a105b92ee4aa8e18&amp;amp;flag=meta
 - https://www.066664.xyz/api/v1/client/subscribe?token=5ec34216e7bbd89ef9cbe2741ebe3f7d&amp;flag=clash
 - https://xn--wlqw2sc0nwqq.xyz/api/v1/client/subscribe?token=870df718933aa46a5d1b2ced141a9813
