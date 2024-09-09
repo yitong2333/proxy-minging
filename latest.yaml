@@ -1,7 +1,6 @@
 clash订阅:
 - http://103.196.20.127/api/v1/client/subscribe?token=9ab412be1f830570f0d614ebf82f1a2e
 - http://103.196.20.127/api/v1/client/subscribe?token=f1279af04744dd54210317fd8ca4eb46
-- http://103.35.189.118/20240728/clash.yaml
 - http://103.35.189.118/20240801/clash.yaml
 - https://bujidao.cc/sub?key=XOfnIze0b27ESmztFIuLkfwF4XHZ7qSA
 - https://clash.llleman.com/clach.yml
@@ -20,6 +19,7 @@ clash订阅:
 - https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 - https://shz.al/aNpJ
 - https://sub.bujidao.org/sub?key=zTFmqBmuUx6ZXjtdI2jjbsm3EhkXYzpC
+- https://sub.xn--9sw509f.eu.org/auto
 - https://x.nsa.cc/api/v1/client/subscribe?token=888fa1629a70b5492ba21d17b1f14177
 - https://xn--qwttwj2pf89b.365236.xyz/api/v1/client/subscribe?token=39ef536ea1e519b9bca7e51fb2a23c33
 - https://zedping8.shop/sub/WmVkcGluZy5yYXlnYW4sMTcyNDA0ODUwNwsspsQj8jBy
@@ -42,6 +42,7 @@ v2订阅:
 - https://shz.al/rjKm
 - https://sub.shadowsokstes.workers.dev/sub
 机场订阅:
+- http://xbvpn.vip/api/v1/client/subscribe?token=228c3d63fc70a86624f2220c31e756cd
 - https://20240802.canadapost-vip.com/api/v1/client/subscribe?token=607dca0c484b9d29d128e1acee83e384
 - https://311120.xyz/sub/d826bd65f85c70f7
 - https://9527.bigbigwatermelon.com/api/v1/client/subscribe?token=af859bb658c5c454bc24b284d5e36e79
@@ -49,7 +50,6 @@ v2订阅:
 - https://api.xinyo.vip/api/v1/client/subscribe?token=32766ad77e22239683fc3b9e2a06f4bd
 - https://board.nsde.date/api/v1/client/subscribe?token=84e28dd2b42173a927d7e39896350cdd
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=1e5dde33f44c9fe597e956f539d95a39
-- https://csgo.fask511.cfd/api/v1/client/subscribe?token=b3a4ebe842dd5365ebc7820c647620dd
 - https://csgo.fask511.cfd/api/v1/client/subscribe?token=f14e52e1b15c6547e982b23481533e87
 - https://csgo1.fask511.cfd/api/v1/client/subscribe?token=1a14738c9fb45740a22099c000bf2275
 - https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=239bf6f70499ff0f80ca081f0a831d04
@@ -61,6 +61,7 @@ v2订阅:
 - https://mydy.xlm.plus/api/v1/client/subscribe?token=50c4667e9520358330737c6307dfdb52
 - https://red.colacloud.free.hr/api/v1/client/subscribe?token=86e5813288aad730c65ff9558f92ad9b
 - https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=750810736ea0883ffd61f1b1c416b885
+- https://rss202407.mugua-sub.com/link/KJcTUT9qI39U4bMr?clash=1
 - https://service-6l9168iy-1312645837.gz.apigw.tencentcs.com/api/v1/client/subscribe?token=50cce61874b985c0c99e50c6f659f20e
 - https://service-avmn443l-1312645837.sh.apigw.tencentcs.com/api/v1/client/subscribe?token=d1d3c683c469abfe5a0d7d4ec92903d0
 - https://service-fy4hli0a-1312645837.nj.apigw.tencentcs.com/api/v1/client/subscribe?token=6f4ee12ffa3d2ea32e0a2361833025fe
