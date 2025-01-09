@@ -64,7 +64,7 @@ def is_future(timestamp):
 
 @logger.catch
 def sub_check(url,bar):
-    headers = {'User-Agent': 'ClashforWindows/0.18.1'}
+    headers = {'User-Agent': 'clash-verge/v2.0.2'}
     with thread_max_num:
         @retry(tries=2)
         def start_check(url):
@@ -74,12 +74,24 @@ def sub_check(url,bar):
                     info = res.headers['subscription-userinfo']
                     if info: 
                         match = re.search(r"expire=(\d+)", info)
-                        if match:
+                        traffic = re.search("upload=(\d+); download=(\d+); total=(\d+)", info)
+                        if traffic:
+                            upload = int(traffic.group(1))
+                            download = int(traffic.group(2))
+                            total = int(traffic.group(3))
+                        if match:# 如果有过期时间
                             expire = int(match.group(1))
-                            if is_future(expire): 
-                                new_sub_list.append(url)
+                            if is_future(expire): # 没过期
+                                if total - (upload + download) > 1073741824:# 剩余流量大于1GB
+                                    new_sub_list.append(url)
+                                else:
+                                    print(f"\n❌订阅-{url} 剩余流量小于1G,跳过")
+                                    pass
                         else:
-                            raise Exception
+                            if total - (upload + download) > 1073741824:# 剩余流量大于1GB
+                                new_sub_list.append(url)
+                            else:
+                                pass
                     else:
                         raise Exception
                 except:
