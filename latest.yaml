@@ -1,5 +1,4 @@
 clash订阅:
-- https://api-bigbear-v2-sub.sodtool.com/subscribe/universal?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTEzNTA4NTMsInVzZXJJZCI6ImRhMmQ3ZjUyZTFiMjQ2NDc4NTM1YmI3ODYyZDJjY2QwIn0.dp3QF6CeYaWm46Hc_LBg_bhKcjcP3GK5wGhISpcpFvI&amp;device_type=
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/Clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
@@ -11,6 +10,7 @@ clash订阅:
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yaml
 - https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/JP_97ss
+- https://sublink.634676.xyz/sub
 v2订阅: []
 机场订阅:
 - http://13.248.254.117/sub/295c1a32b309293c/clash/%E9%A3%9E%E9%B8%9F%E5%8A%A0%E9%80%9F?route=0
