@@ -1,7 +1,7 @@
 clash订阅:
+- http://199.245.100.163:49850/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1,50&amp;filter=r,p&amp;type=ss
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
-- https://github.com/imdnsk/abcdef/raw/refs/heads/main/sub/qiao
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
@@ -19,6 +19,7 @@ v2订阅:
 机场订阅:
 - http://47.107.142.52:88/api/v1/client/subscribe?token=d688513b1852bd92fc1d96124c36723f
 - https://aecc-dfghjkk.kaell.top/api/v1/client/subscribe?token=1a562e02116b974701b9be123549f234
+- https://aecc-dfghjkk.kaell.top/api/v1/client/subscribe?token=3891fe6c14bb296429886c4f10bb80bf
 - https://aecc-dfghjkk.kaell.top/api/v1/client/subscribe?token=cd2d71551765dc8dfe3df3f34a01369d
 - https://dingyue.di5ji.lat/api/v1/client/subscribe?token=4352ab2efc991a9acf41630ff69ce882
 - https://id.rain.fail/sub/tasus/c04859ea19981aedeb95e983c9678cc7
