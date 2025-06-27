@@ -17,6 +17,8 @@ v2订阅:
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan
+- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/non-tls
+- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vmess
 - https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
