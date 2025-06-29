@@ -1,7 +1,6 @@
 clash订阅:
 - http://199.245.100.163:49850/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1,50&amp;filter=r,p&amp;type=ss
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
-- https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/Clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
@@ -10,17 +9,9 @@ clash订阅:
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yaml
 v2订阅:
-- https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ae/mixed
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ir/mixed
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/non-tls
 - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
-- https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vmess
 - https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 机场订阅:
 - https://gw.ztcloud.xyz/api/v1/client/subscribe?token=08713ee2fbce559606a3a44027e882c6
@@ -77,7 +68,6 @@ v2订阅:
 - https://sub.cloudtaste.xyz/tastegood/883f97ad13bc9efadb0f2335c7beb033
 - https://sub.cloudtaste.xyz/tastegood/8bb7bea3c77a7d389ed89933ecf9bec3
 - https://sub.cloudtaste.xyz/tastegood/8f8d93133379ac0207ef4ad41c9518b4
-- https://sub.cloudtaste.xyz/tastegood/922d906c2fe0fd1f7ada41a3271899f1
 - https://sub.cloudtaste.xyz/tastegood/9309f2d591bd9a9534478aca2f363a37
 - https://sub.cloudtaste.xyz/tastegood/9398eecefb3d66846ffd29ed102434db
 - https://sub.cloudtaste.xyz/tastegood/93b0e9443bb1bc1946b8373ccd1eb037
@@ -93,7 +83,6 @@ v2订阅:
 - https://sub.cloudtaste.xyz/tastegood/adc50c3504619ad132bcacbe7616b69b
 - https://sub.cloudtaste.xyz/tastegood/b2d9152d28637d72af9febb5cfd46b15
 - https://sub.cloudtaste.xyz/tastegood/b5d629e316f11b7e4bfe46e8dbd9f444
-- https://sub.cloudtaste.xyz/tastegood/b67a1ca4946b5b70b7cdca96259a2286
 - https://sub.cloudtaste.xyz/tastegood/b7213d311b0710381f908d66723f0d33
 - https://sub.cloudtaste.xyz/tastegood/ba8d1745893ef9d84925f66b296bff1a
 - https://sub.cloudtaste.xyz/tastegood/bbf001f0c6ba32af4855c1bee077726d
@@ -129,7 +118,6 @@ v2订阅:
 - https://vpn.huasuan666.top/api/v1/client/subscribe?token=8e1d28778844617d0a1c4004c59c1136
 - https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=360490724a9853a2df5bb3e56f4c8af7
 - https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=3c627aadae031ef190993b7447c0bb10
-- https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=3f4c0707a344b7465f1e577ca78808f8
 - https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=7b74dc814799449675239d0d3157a9f0
 - https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=a48109b565ecfc0a98f45816d3f9e161
 - https://w258963147.ztcloud.xyz/api/v1/client/subscribe?token=c1719afa23a5a5e915948a669e4231ce
