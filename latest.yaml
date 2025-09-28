@@ -1,5 +1,4 @@
 clash订阅:
-- https://bpsub.freeargo.eu.org/kejiland
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
 - https://paste.gg/p/TG@FProxies/506150c4aca64c1fa209b190415d759f/files/39c2db5641b44dd9a93eb3ec10391e12/raw
@@ -24,6 +23,8 @@ v2订阅:
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://sub.bitplatform.workers.dev/pub?s=09
 机场订阅:
+- http://120.24.254.184:8086/api/v1/client/subscribe?token=7033d45f9055a12c5a9b0ff973a5a81e
+- http://202509011229371.chibaba.ggff.net/api/v1/client/subscribe?token=3d09e40594815b8d2f27bfc978b3668b
 - http://x2b.eans.top/api/v1/client/subscribe?token=01750dfe2cb5be6dce5e1576bfe466f0
 - http://x2b.eans.top/api/v1/client/subscribe?token=0de5dbd9210d179d733f542cee5f1891
 - https://ch.owokkvsxks.store/api/v1/client/subscribe?token=3b000590951e6a7e3e83cc720d6b6eda
@@ -36,7 +37,6 @@ v2订阅:
 - https://mp4.wanlidag.top/s/wld/client/subscribe?token=7a6123da23b7c1c609fef0d0de33102b
 - https://qq.xlm.plus/api/v1/client/subscribe?token=9e5db95336ab586ac6c4e2306c4d25a9
 - https://sfj.sufujia.top/api/v1/client/subscribe?token=ccd457a49fff474627bc21ae8752f292
-- https://sfj.sufujia.top/api/v1/client/subscribe?token=ce9f9619d70cf8fcbbebf5263af88ef3
 - https://sfj.sufujia.top/api/v1/client/subscribe?token=e0825eeba92c059e149c75adcb8227c4
 - https://sub.dzen-services.com/Ea3Nz_Pk1a-F4Me0#android_7046209444_tg_oLr
 - https://sufujia.top/api/v1/client/subscribe?token=c980e4cfc922831ccd8efd6b48249c4e
@@ -47,5 +47,6 @@ v2订阅:
 - https://ylccloud.top/api/v1/client/subscribe?token=4aede15668c898c582cd93ca384a2182
 - https://ylccloud.top/api/v1/client/subscribe?token=7b3a06e07c8bc8d31bc6e235b5e3f204
 - https://ylccloud.top/api/v1/client/subscribe?token=81de05678bfca57ef2fee0a1a2fbb365
+- https://ylccloud.top/api/v1/client/subscribe?token=a04efc4b51267a6d965037fffee05bc4
 - https://ylccloud.top/api/v1/client/subscribe?token=dddf07fb6e885a55341982a8ed37aafe
 - https://ylccloud.top/api/v1/client/subscribe?token=de262ab4a19251b8fad7a3d4c89a6467
