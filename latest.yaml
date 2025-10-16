@@ -26,8 +26,8 @@ v2订阅:
 机场订阅:
 - http://x2b.eans.top/api/v1/client/subscribe?token=6d656e8a542c73bd01f4dc0f12c88bc9
 - http://x2b.eans.top/api/v1/client/subscribe?token=85676de027056ea72abd4691eff860a0
-- https://fanyun.pro/api/v1/client/subscribe?token=03383ebe71c11b0278b7ecbd9c073ba6
 - https://fanyun.pro/api/v1/client/subscribe?token=72f180dbff24adcd3d9cc5c825597584
+- https://fanyun.pro/api/v1/client/subscribe?token=9d3bc1536ffdfbf29f0626ba9a360384&amp;flag=sing
 - https://fanyun.pro/api/v1/client/subscribe?token=9d3bc1536ffdfbf29f0626ba9a360384&amp;flag=sing#%E7%BF%BB%E4%BA%91%E2%98%81%EF%B8%8F
 - https://fanyun.pro/api/v1/client/subscribe?token=a1a0e7efe339eb3d23428949026858f2
 - https://fanyun.pro/api/v1/client/subscribe?token=af27fb8e944a5e2a66ec3c817f51229d
@@ -40,6 +40,7 @@ v2订阅:
 - https://old-v2b.linkedton.com/api/v1/client/subscribe?token=c761e09da3fd92961689103736a48454
 - https://old-v2b.linkedton.com/api/v1/client/subscribe?token=ce7c8166b54f689b4db39e6240db96a1
 - https://old-v2b.linkedton.com/api/v1/client/subscribe?token=d575d066adb2c4fc16420d6fe3e4d128
+- https://qq.xlm.plus/api/v1/client/subscribe?token=9e5db95336ab586ac6c4e2306c4d25a9
 - https://tipk.yukihasu.top/sub/yukihasu?token=49210db28e3e382d0301544f7834a93a
 - https://waifu.kurumi.biz.id/sub/VG9raXNha2lrdXJ1bWksMTc1ODk3NDI4NA4Jov3b4Z7y
 - https://xbd.iftballs.com/api/v1/client/subscribe?token=3b23d12fe73f4ea1129edf359b447335
