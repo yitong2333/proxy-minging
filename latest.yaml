@@ -28,7 +28,6 @@ v2订阅:
 机场订阅:
 - http://x2b.eans.top/api/v1/client/subscribe?token=e3d0f6f0a621f1bbbef9fc18fb02f28e
 - https://fanyun.pro/api/v1/client/subscribe?token=01cd72c56a1de6ca6ef4b713c81a6f2f
-- https://fanyun.pro/api/v1/client/subscribe?token=0c1f490f43b4f4e162b943f26f7fab21
 - https://fanyun.pro/api/v1/client/subscribe?token=74340f8e05417c47da71c164ec9a8f4e
 - https://fanyun.pro/api/v1/client/subscribe?token=82dc219d72cdced1c384aab91ea01f97
 - https://fanyun.pro/api/v1/client/subscribe?token=a9fe3368e23a9af37d5063820da0b877
@@ -47,4 +46,5 @@ v2订阅:
 - https://x2b.eans.top/api/v1/client/subscribe?token=0b88ff6430a45e3b974a9579d0fdb372
 - https://x2b.eans.top/api/v1/client/subscribe?token=8930b742ec9bd7b9eec9f7dd58c090e5
 - https://x2b.eans.top/api/v1/client/subscribe?token=dcedd148c7ea786497433917e4ec1e18
+- https://xbd.iftballs.com/api/v1/client/subscribe?token=580c49010ffab78bb11f65d1ac76258d
 - https://yun.dashiba.com/api/v1/client/subscribe?token=c5053a3a08a325c302b499ccf00967b3
