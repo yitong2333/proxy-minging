@@ -6,6 +6,7 @@ clash订阅:
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 v2订阅:
+- https://10.microunsync.com/api/v1/client/subscribe?token=a705c015e7211487bf3be68203c6f5f4
 - https://perspilis.vpnvipnor.workers.dev/c79e6c7b-a6c9-4318-9559-32e9264394f1/configs?sub=wuqb2i4f
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
@@ -19,10 +20,7 @@ v2订阅:
 - https://sub.scpnb.top/base64
 机场订阅:
 - http://92.5.238.4/api/v1/client/subscribe?token=630bc4839c8115e31bf27675f3233c71
-- https://10.microunsync.com/api/v1/client/subscribe?token=a705c015e7211487bf3be68203c6f5f4
 - https://3-27-6rr.pages.dev/9b0faee3-b5d1-4fb0-9130-41b4eda3a896?sub
 - https://6953.sub-bpa8xsvb-huojian.top/link/80ccW6e4SykSc3rI?clash=1
 - https://api.dingyueapi.win/api/v1/client/subscribe?token=159af437936c214f358a8179d9880482
-- https://api.yuyan.vin/api/v1/client/subscribe?token=4edc0f3de8aba33f9ef6b032156ab69a
-- https://buahfancha.com/link/YnXvNaqbLbwGpecA?sub=3
 - https://sub.o4o.win/api/sub/b2244ebccd7c1767de8cbb009e968656?type=clash
