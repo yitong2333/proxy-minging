@@ -1,9 +1,6 @@
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
-- https://proxypool.dmit.dpdns.org/clash/proxies
-- https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
-- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -38,4 +35,3 @@ v2订阅:
 - https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=021169d63fa7310920d91416d07489a1
 - https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=246c2c062a8b943433e744c1e12a9a26
 - https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=811d4fd81b30035d5af968f6c57dc3ed
-- https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=f308650d02be9d787004eb0fa38e29ab
