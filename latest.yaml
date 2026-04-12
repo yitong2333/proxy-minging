@@ -9,6 +9,8 @@ clash订阅:
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
+- https://sni.111000.dynv6.net/sub
+- https://sni.111000.dynv6.net/sub?clash
 v2订阅:
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
@@ -26,10 +28,10 @@ v2订阅:
 机场订阅:
 - https://2.juanwangjc.top/juanwang/dingyue1/sub1/babiq?token=1f8229ae3e898b61e0c2ad999baf0858
 - https://2.juanwangjc.top/juanwang/dingyue1/sub1/babiq?token=1f8229ae3e898b61e0c2ad999baf0858&amp;flag=sing
+- https://cccloud.zangcloud.xyz/ai/m3u8/xppt/sub?token=a885d9fbeefc0249fd9a84632f7c18d5
 - https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=342c1dfe82cf373b865c3f38f41b2c54
 - https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=b8ec33354458e35d1275da2f4440a6ce
 - https://fm.sdnlv0.cn/api/v1/feima/subscribe?token=60f2914b5152e1b54e89c85610ede5db
-- https://mc.jiedianxielou.workers.dev/api/v1/client/subscribe?token=22a82bc9a50b426b944bdeca4c4c2168
 - https://mojie.app/api/v1/client/subscribe?token=7b2524e8b617290404473801cf17aeed
 - https://onlysub.mjurl.com/api/v1/client/subscribe?token=6a845ed6787e4060626e7443e064a041
 - https://suba.f2vip.net/api/v1/client/subscribe?token=2f7c5c443489432435c1cb104559bdff
