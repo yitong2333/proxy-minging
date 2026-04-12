@@ -1,6 +1,7 @@
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
+- https://pai.yt/clash
 - https://proxypool.dmit.dpdns.org/clash/proxies
 - https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
 - https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
@@ -8,8 +9,6 @@ clash订阅:
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
-- https://sni.111000.dynv6.net/sub
-- https://sni.111000.dynv6.net/sub?clash
 v2订阅:
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
@@ -37,4 +36,3 @@ v2订阅:
 - https://suba.f2vip.net/api/v1/client/subscribe?token=78321195be1afb5ec726be7366dcd847
 - https://suba.f2vip.net/api/v1/client/subscribe?token=9325c1d39e9f4ed8ea24ef05c34ce59c
 - https://suba.f2vip.net/api/v1/client/subscribe?token=9c5757c3df69eb6774bd4fbd9134ff40
-- https://subw.benzccc.com/s/5f71098129772def24740f7362a20489
