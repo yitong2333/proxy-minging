@@ -1,13 +1,18 @@
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
+- https://pai.yt/clash
+- https://pai.yt/clash?preset=other
 - https://proxypool.dmit.dpdns.org/clash/proxies
 - https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
+- https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
+- https://sni.111000.dynv6.net/sub
 - https://sni.111000.dynv6.net/sub?clash
 v2订阅:
+- https://app.sublink.works/x/6CFt2Kg
 - https://app.sublink.works/x/KCWpEJd
 - https://app.sublink.works/x/Qym52ut
 - https://app.sublink.works/x/woM0NaT
@@ -19,6 +24,7 @@ v2订阅:
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://ss.lrdxw.club/sub/94ce96d3-840d-4320-9b9b-07bdba018212
+- https://sub.scpnb.top/base64
 机场订阅:
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=327f1e607186b8565873de080825a891
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=3e7e55c49c0645a27628e15c2cfb7992
@@ -27,7 +33,10 @@ v2订阅:
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=6b7c1aa325e0b3d2d3e382a452faaad4
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=cad3a900dbd1a071add6fe7815e69746
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=ce6f2c95f133c4d3c6bed661ebd1b049
+- http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=dbcf09bcd88eaab4dabdd64d2a2401f2
+- http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=f83c76fd1de3f536d9b75b320f03cbce
 - https://2.juanwangjc.top/juanwang/dingyue1/sub1/babiq?token=1f8229ae3e898b61e0c2ad999baf0858
+- https://2.juanwangjc.top/juanwang/dingyue1/sub1/babiq?token=1f8229ae3e898b61e0c2ad999baf0858&amp;flag=sing
 - https://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=f83c76fd1de3f536d9b75b320f03cbce
 - https://ldgb.pages.dev/sub?token=5238141bc3daa773b225209767b9fb2c
 - https://suba.f2vip.net/api/v1/client/subscribe?token=1859e421a30dfab265d5549cf5574ec6
