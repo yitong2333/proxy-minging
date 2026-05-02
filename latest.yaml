@@ -10,6 +10,7 @@ clash订阅:
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://sni.111000.dynv6.net/sub
+- https://sni.111000.dynv6.net/sub?clash
 v2订阅:
 - https://app.sublink.works/x/6CFt2Kg
 - https://app.sublink.works/x/KCWpEJd
@@ -26,7 +27,6 @@ v2订阅:
 - https://ss.lrdxw.club/sub/94ce96d3-840d-4320-9b9b-07bdba018212
 - https://sub.scpnb.top/base64
 机场订阅:
-- http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=44d151b4dac0a4d6ac8433a1a17110a7
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=4d37badfef435b33b91dd061f78c81fc
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=561a1151e33239a1680fd2485d843634
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=d0298b169874827d02ba3885d479c564
