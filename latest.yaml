@@ -9,7 +9,10 @@ clash订阅:
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
+- https://sni.111000.dynv6.net/sub
+- https://sni.111000.dynv6.net/sub?clash
 v2订阅:
+- https://app.sublink.works/x/5A1krBT
 - https://app.sublink.works/x/AhSVzGR
 - https://app.sublink.works/x/KCWpEJd
 - https://app.sublink.works/x/KqF0UPh
@@ -24,8 +27,8 @@ v2订阅:
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://sub.scpnb.top/base64
 机场订阅:
-- http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=155708acf75e392ad92e361fe7a20f73
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=24227aeaefc7c0d066e7589a27cc14a0
+- http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=50d39eae1a3abb21b25d8c45f242d86a
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=51b71919bb923606e199e0674d410978
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=566ccb03c9b334df2277828ef53cd5c0
 - http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=f01a2abbcccaad4e6a15d32e6a54ce38
