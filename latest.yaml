@@ -1,5 +1,4 @@
 clash订阅:
-- https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://github.com/0KABE/ConfConvertor#clash
 - https://proxypool.dmit.dpdns.org/clash/proxies
 - https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
@@ -10,15 +9,19 @@ clash订阅:
 - https://shz.al/j7Nt
 - https://tt.vg/6RhxWqd
 - https://tt.vg/7vWLboV
-- https://tt.vg/FIR7l0I
 - https://tt.vg/cDxnjnV
 v2订阅:
 - https://app.sublink.works/x/cdWZOpr
 - https://app.sublink.works/x/mdGlGfi
+- https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+- https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt
+- https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
+- https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all
+- https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
 - https://sub.scpnb.top/base64
 - https://subrostunnel.vercel.app/wl.txt
