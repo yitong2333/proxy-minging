@@ -1,4 +1,6 @@
 clash订阅:
+- https://api.v2paw.com/client/daab5cbc-83a8-44c0-9ab1-fd6908e39958/clash
+- https://api.v2paw.com/client/daab5cbc-83a8-44c0-9ab1-fd6908e39958/clash?template=universal/no-urltest
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
@@ -101,7 +103,6 @@ clash订阅:
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
-- https://shz.al/xWKw
 v2订阅:
 - https://app.sublink.works/x/E5PTrQi
 - https://app.sublink.works/x/ht5qv8K
