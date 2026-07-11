@@ -1,5 +1,6 @@
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
+- https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
 - https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/protocols/vless_clash.yaml
@@ -64,6 +65,7 @@ v2订阅:
 - https://app.sublink.works/x/JQq2eXV
 - https://app.sublink.works/x/WtXexVG
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 - https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
