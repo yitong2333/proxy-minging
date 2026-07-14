@@ -1,4 +1,5 @@
 clash订阅:
+- https://cdn.tlsa.top/link/Bj4oyKPSkS0JSADgEuEhUcwOzFwA5cV0y2AL?clash=1
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -6,19 +7,7 @@ clash订阅:
 - https://proxypool.dmit.dpdns.org/clash/proxies
 - https://proxypool.dmit.dpdns.org/clash/proxies?c=CN,HK,TW,SG,JP,KR,VN&amp;speed=1&amp;type=ss
 - https://proxypool.dmit.dpdns.org/clash/proxies?nstream=netflix,disney&amp;nc=CA&amp;type=ss,vmess,vless
-- https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/10ium/V2RayAggregator-Eternity.yml
-- https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/10ium/hin-vpn-mix.yaml
-- https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/Barabama/clashmeta.yaml
-- https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/itsyebekhe/mix.yaml
-- https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/rayan_proxy.yaml
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
-- https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config.yaml
-- https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra.yaml
-- https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Complex/10ium/V2Hub3/merged_base64.yml
-- https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Complex/4n0nymou3.yml
-- https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Complex/@An0nymousTeam.yaml
-- https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Complex/@redfree8.yaml
-- https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Complex/AzadNetCH/Clash/AzadNet.txt
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 - https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml
 - https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -28,7 +17,6 @@ v2订阅:
 - https://app.sublink.works/x/JQq2eXV
 - https://app.sublink.works/x/MHgB8ih
 - https://app.sublink.works/x/SZLpHfy
-- https://app.sublink.works/x/WtXexVG
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 - https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt
