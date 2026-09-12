@@ -1,6 +1,5 @@
 clash订阅:
 - http://198.200.42.129:8080/mysub-a7f3k9x2.yaml
-- http://3.12.34.194/clash2.yaml
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -28,6 +27,7 @@ v2订阅:
 - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 - https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
+- https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
