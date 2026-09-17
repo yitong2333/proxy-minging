@@ -2,6 +2,7 @@ clash订阅:
 - http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
 - http://36.133.43.24:8081/sub/api/subscribe?token=5891d7bdc47a50951fdf0c5f5652048e
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
+- https://edg-2oo.pages.dev/sub?token=97465466819986cef7ec1dbf830c8a9c
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
