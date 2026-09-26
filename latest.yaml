@@ -1,9 +1,7 @@
 clash订阅:
-- http://124.156.230.31:8080/sub_a8f3k2.yaml
 - http://192.255.151.112:2080/personal-clash-e87d6a5cf302fcbe18978c4119d76cefbd85531ab7e0bd0781e9a9fec49e4828.yaml
 - http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
 - http://36.133.43.24:8081/sub/api/subscribe?token=5891d7bdc47a50951fdf0c5f5652048e
-- http://74.82.196.74/clash-d27e13d630c617e0665aa2e4.yaml
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -18,10 +16,9 @@ clash订阅:
 - https://sub.femboy.us.ci/?url=freenodes
 v2订阅:
 - https://app.sublink.works/x/0A4KVWF
-- https://app.sublink.works/x/9Orz5ix
-- https://app.sublink.works/x/Choduo1
 - https://app.sublink.works/x/GdXOubl
 - https://app.sublink.works/x/JuNhuyH
+- https://app.sublink.works/x/MTtNuH0
 - https://app.sublink.works/x/RNeVb38
 - https://app.sublink.works/x/cMuwTvV
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/v2ray
@@ -33,12 +30,14 @@ v2订阅:
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
+- https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
 - https://zhuhai.uk/subs/TG-%40dns68-333e0744fbee.txt
 机场订阅:
-- http://sub.godsent12312.xyz#avtoday.io
 - https://36071.subnodejs-chai.com/ssp/xiaochai/link/IQizOAWXnxrtRHmN?clash=3#
+- https://clash.leozai.com
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
 - https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc
