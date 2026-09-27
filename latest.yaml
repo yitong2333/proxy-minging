@@ -1,13 +1,14 @@
 clash订阅:
-- http://192.255.151.112:2080/personal-clash-e87d6a5cf302fcbe18978c4119d76cefbd85531ab7e0bd0781e9a9fec49e4828.yaml
 - http://36.133.43.24:8081/sub/api/subscribe?token=0ed824c7bab5b44b946128afbc9a7128
 - http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
 - http://36.133.43.24:8081/sub/api/subscribe?token=298cb35e1db1b5ddaea6e91f30fe41d5
 - http://36.133.43.24:8081/sub/api/subscribe?token=5891d7bdc47a50951fdf0c5f5652048e
+- http://36.133.43.24:8081/sub/api/subscribe?token=f6f3bc9bdb1a4f9a062b2d7bd9fd9df7
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://github.com/0KABE/ConfConvertor#clash
+- https://mihomo-fa.ai.studio/api/sub?id=zlae3yv1
 - https://node.clash-party.cc/uploads/2026/09/0-20260924.yaml
 - https://node.clash-party.cc/uploads/2026/09/2-20260924.yaml
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
@@ -32,10 +33,11 @@ v2订阅:
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
+- https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
-- https://zhuhai.uk/subs/TG-%40dns68-333e0744fbee.txt
+- https://zhuhai.uk/subs/TG-%40dns68-72a5913ffc01.txt
 机场订阅:
 - https://36071.subnodejs-chai.com/ssp/xiaochai/link/IQizOAWXnxrtRHmN?clash=3#
 - https://clash.leozai.com
