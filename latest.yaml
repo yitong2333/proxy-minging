@@ -1,4 +1,7 @@
 clash订阅:
+- http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
+- http://36.133.43.24:8081/sub/api/subscribe?token=5891d7bdc47a50951fdf0c5f5652048e
+- http://36.133.43.24:8081/sub/api/subscribe?token=f6f3bc9bdb1a4f9a062b2d7bd9fd9df7
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -10,8 +13,8 @@ clash订阅:
 - https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 - https://sub.femboy.us.ci/?url=freenodes
 v2订阅:
-- https://app.sublink.works/x/GdXOubl
 - https://app.sublink.works/x/JuNhuyH
+- https://app.sublink.works/x/LU4IMaw
 - https://app.sublink.works/x/MTtNuH0
 - https://app.sublink.works/x/k9Tt4S4
 - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
