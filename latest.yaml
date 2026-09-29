@@ -1,7 +1,6 @@
 clash订阅:
 - http://36.133.43.24:8081/sub/api/subscribe?token=0ed824c7bab5b44b946128afbc9a7128
 - http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
-- http://36.133.43.24:8081/sub/api/subscribe?token=298cb35e1db1b5ddaea6e91f30fe41d5
 - http://36.133.43.24:8081/sub/api/subscribe?token=5891d7bdc47a50951fdf0c5f5652048e
 - http://36.133.43.24:8081/sub/api/subscribe?token=f6f3bc9bdb1a4f9a062b2d7bd9fd9df7
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
@@ -23,12 +22,16 @@ v2订阅:
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
 - https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
+- https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt?s=09#V2RAY_BASE64
+- https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
 - https://zhuhai.uk/subs/TG-%40dns68-72a5913ffc01.txt
 - https://zhuhai.uk/subs/TG-%40dns68-bd057c61db5e.txt
 机场订阅:
 - https://36071.subnodejs-chai.com/ssp/xiaochai/link/IQizOAWXnxrtRHmN?clash=3#
+- https://36071.subnodejs-chai.com/ssp/xiaochai/link/IQizOAWXnxrtRHmN?clash=3vpn.yuzhe.cc.cd
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
+- https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc
 - https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc#AV
 - https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc#AV%E7%84%A1%E7%A2%BCAVToday.io
