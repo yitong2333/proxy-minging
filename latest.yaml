@@ -1,6 +1,5 @@
 clash订阅:
 - http://36.133.43.24:8081/sub/api/subscribe?token=27d032a522be7f13b084de12080cc4a0
-- http://36.133.43.24:8081/sub/api/subscribe?token=f6f3bc9bdb1a4f9a062b2d7bd9fd9df7
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
@@ -15,8 +14,8 @@ v2订阅:
 - https://app.sublink.works/x/LU4IMaw
 - https://app.sublink.works/x/OHzVu2J
 - https://app.sublink.works/x/ZbOpQbJ
+- https://app.sublink.works/x/dSZxElg
 - https://app.sublink.works/x/k9Tt4S4
-- https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 - https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-free
 - https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
