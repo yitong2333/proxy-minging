@@ -310,15 +310,20 @@ def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
 def is_valid_proxy(proxy: dict[str, Any]) -> bool:
     """Reject nodes missing protocol fields or incompatible transport settings."""
     proxy_type = str(proxy.get("type", "")).lower()
-    reality_opts = proxy.get("reality-opts")
-    if reality_opts and proxy.get("tls") is not True:
-        return False
-    if reality_opts and (
-        not isinstance(reality_opts, dict) or not reality_opts.get("public-key")
-    ):
-        return False
-    if proxy_type == "anytls" and reality_opts:
-        return False
+    if "reality-opts" in proxy and proxy["reality-opts"] is not None:
+        reality_opts = proxy["reality-opts"]
+        if not isinstance(reality_opts, dict):
+            return False
+        if reality_opts:
+            if proxy_type != "vless" or proxy.get("tls") is not True:
+                return False
+            if not is_valid_reality_public_key(reality_opts.get("public-key")):
+                return False
+            short_id = reality_opts.get("short-id", "")
+            if not isinstance(short_id, str) or not re.fullmatch(
+                r"(?:[0-9a-fA-F]{2}){0,8}", short_id
+            ):
+                return False
 
     required = {"server", "port"} | PROXY_REQUIRED_FIELDS.get(proxy_type, set())
     for field in required:
@@ -330,6 +335,13 @@ def is_valid_proxy(proxy: dict[str, Any]) -> bool:
         if isinstance(value, str) and value.strip().lower() in {"none", "null"}:
             return False
 
+    port = proxy.get("port")
+    if isinstance(port, bool) or not isinstance(port, int) or not 1 <= port <= 65535:
+        return False
+    server = proxy.get("server")
+    if not isinstance(server, str) or not server.strip() or server != server.strip():
+        return False
+
     cipher = proxy.get("cipher")
     if proxy_type == "ss" and cipher not in SUPPORTED_SS_CIPHERS:
         return False
@@ -338,6 +350,25 @@ def is_valid_proxy(proxy: dict[str, Any]) -> bool:
         if value is not None and value not in supported_values:
             return False
     return True
+
+
+def is_valid_reality_public_key(value: Any) -> bool:
+    """Accept only Mihomo's unpadded base64url encoding of a 32-byte X25519 key."""
+    if not isinstance(value, str):
+        return False
+    key = value
+    if not re.fullmatch(r"[A-Za-z0-9_-]{43}", key):
+        return False
+    try:
+        decoded = base64.b64decode(
+            key + "=" * (-len(key) % 4), altchars=b"-_", validate=True
+        )
+    except (binascii.Error, ValueError):
+        return False
+    if len(decoded) != 32:
+        return False
+    canonical_urlsafe = base64.urlsafe_b64encode(decoded).decode("ascii").rstrip("=")
+    return key == canonical_urlsafe
 
 
 def country_from_proxy_name(name: str) -> str:
