@@ -24,6 +24,9 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.yaml"
 CLASH_OUTPUT_PATH = ROOT / "clash.yaml"
 SUBCONVERTER_API = "https://api.asailor.org/sub"
+CONVERTER_BATCH_SIZE = 4
+CONVERTER_TIMEOUT = (10, 90)
+CONVERTER_RETRIES = 2
 MAX_WORKERS = 64
 MAX_CHANNEL_WORKERS = 16
 REQUEST_TIMEOUT = (5, 10)
@@ -197,8 +200,8 @@ def write_outputs(
     write_text(ROOT / "v2ray.txt", sorted(unquote(node) for node in nodes))
 
 
-def normalize_clash_config(content: str) -> str:
-    """Validate converter output and ensure it can be loaded as a Clash profile."""
+def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
+    """Extract proxy nodes from a SubConverter Clash list response."""
     try:
         config = yaml.safe_load(content)
     except yaml.YAMLError as exc:
@@ -207,39 +210,118 @@ def normalize_clash_config(content: str) -> str:
         raise ValueError("转换 API 没有返回 YAML 配置对象")
 
     proxies = config.get("proxies")
-    providers = config.get("proxy-providers")
-    proxy_names = [
-        proxy.get("name")
-        for proxy in (proxies if isinstance(proxies, list) else [])
+    if not isinstance(proxies, list):
+        raise ValueError("转换结果中没有 proxies 节点列表")
+    valid_proxies = [
+        proxy
+        for proxy in proxies
         if isinstance(proxy, dict) and isinstance(proxy.get("name"), str)
     ]
-    provider_names = list(providers) if isinstance(providers, dict) else []
-    if not proxy_names and not provider_names:
-        raise ValueError("转换结果中没有代理节点或 proxy-providers")
+    if not valid_proxies:
+        raise ValueError("转换结果中没有有效代理节点")
+    return valid_proxies
 
-    groups = config.get("proxy-groups")
-    if not isinstance(groups, list) or not groups:
-        group_name = "Proxy"
-        group: dict[str, Any] = {"name": group_name, "type": "select"}
-        if proxy_names:
-            group["proxies"] = proxy_names + ["DIRECT"]
-        if provider_names:
-            group["use"] = provider_names
-        config["proxy-groups"] = [group]
-    else:
-        group_name = next(
-            (
-                group.get("name")
-                for group in groups
-                if isinstance(group, dict) and isinstance(group.get("name"), str)
-            ),
-            "Proxy",
-        )
 
-    if not isinstance(config.get("rules"), list) or not config["rules"]:
-        config["rules"] = [f"MATCH,{group_name}"]
+def normalize_clash_config(proxies: list[dict[str, Any]]) -> str:
+    """Build one Clash profile from converted nodes with unique names."""
+    unique_proxies: list[dict[str, Any]] = []
+    seen_nodes: set[str] = set()
+    used_names: set[str] = set()
 
+    for original in proxies:
+        proxy = dict(original)
+        identity = dict(proxy)
+        identity.pop("name", None)
+        fingerprint = yaml.safe_dump(identity, allow_unicode=True, sort_keys=True)
+        if fingerprint in seen_nodes:
+            continue
+        seen_nodes.add(fingerprint)
+
+        base_name = proxy["name"].strip() or "Proxy"
+        name = base_name
+        suffix = 2
+        while name in used_names:
+            name = f"{base_name} ({suffix})"
+            suffix += 1
+        proxy["name"] = name
+        used_names.add(name)
+        unique_proxies.append(proxy)
+
+    if not unique_proxies:
+        raise ValueError("去重后没有可用代理节点")
+
+    config = {
+        "proxies": unique_proxies,
+        "proxy-groups": [
+            {
+                "name": "Proxy",
+                "type": "select",
+                "proxies": [proxy["name"] for proxy in unique_proxies] + ["DIRECT"],
+            }
+        ],
+        "rules": ["MATCH,Proxy"],
+    }
     return yaml.safe_dump(config, allow_unicode=True, sort_keys=False)
+
+
+def convert_batch(subscriptions: list[str]) -> tuple[list[dict[str, Any]], int]:
+    """Convert one batch, recursively splitting it when the public API times out."""
+    params = {
+        "target": "clash",
+        "list": "true",
+        "url": "|".join(subscriptions),
+    }
+    proxies: list[dict[str, Any]] | None = None
+    error_type = "UnknownError"
+    status_code: int | None = None
+
+    for attempt in range(CONVERTER_RETRIES):
+        try:
+            response = requests.get(
+                SUBCONVERTER_API,
+                params=params,
+                headers={"User-Agent": USER_AGENT},
+                timeout=CONVERTER_TIMEOUT,
+            )
+            response.raise_for_status()
+            if "html" in response.headers.get("Content-Type", "").lower():
+                raise ValueError("HTML response")
+            proxies = parse_converter_proxies(response.text)
+            break
+        except requests.RequestException as exc:
+            error_type = type(exc).__name__
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            # A 504 will not improve by retrying the same large input. Split it now.
+            if status_code == 504 or isinstance(exc, requests.ReadTimeout):
+                break
+        except ValueError as exc:
+            error_type = type(exc).__name__
+            break
+
+        if attempt + 1 < CONVERTER_RETRIES:
+            time.sleep(1.0 * (attempt + 1))
+
+    if proxies is not None:
+        return proxies, 0
+
+    if len(subscriptions) > 1:
+        logger.warning(
+            "转换批次失败（{} 个来源，{}，HTTP {}），拆分后继续",
+            len(subscriptions),
+            error_type,
+            status_code or "n/a",
+        )
+        midpoint = len(subscriptions) // 2
+        left_proxies, left_failed = convert_batch(subscriptions[:midpoint])
+        right_proxies, right_failed = convert_batch(subscriptions[midpoint:])
+        return left_proxies + right_proxies, left_failed + right_failed
+
+    logger.warning(
+        "跳过无法转换的订阅（{}，HTTP {}）",
+        error_type,
+        status_code or "n/a",
+    )
+    return [], 1
 
 
 def convert_subscriptions(subscriptions: set[str]) -> bool:
@@ -248,51 +330,42 @@ def convert_subscriptions(subscriptions: set[str]) -> bool:
         logger.warning("没有通过筛选的订阅，保留现有 {}", CLASH_OUTPUT_PATH.name)
         return False
 
-    params = {
-        "target": "clash",
-        "list": "true",
-        "url": "|".join(sorted(subscriptions)),
-    }
+    ordered_subscriptions = sorted(subscriptions)
+    batches = [
+        ordered_subscriptions[index : index + CONVERTER_BATCH_SIZE]
+        for index in range(0, len(ordered_subscriptions), CONVERTER_BATCH_SIZE)
+    ]
+    converted_proxies: list[dict[str, Any]] = []
+    failed_subscriptions = 0
+    for batch_number, batch in enumerate(batches, start=1):
+        logger.info("转换订阅批次 {}/{}（{} 个来源）", batch_number, len(batches), len(batch))
+        proxies, failed = convert_batch(batch)
+        converted_proxies.extend(proxies)
+        failed_subscriptions += failed
+
+    if not converted_proxies:
+        logger.error("所有订阅转换均失败，保留现有 {}", CLASH_OUTPUT_PATH.name)
+        return False
+
     temp_path = CLASH_OUTPUT_PATH.with_suffix(".yaml.tmp")
-    for attempt in range(MAX_RETRIES):
-        try:
-            response = requests.get(
-                SUBCONVERTER_API,
-                params=params,
-                headers={"User-Agent": USER_AGENT},
-                timeout=(10, 120),
-            )
-            response.raise_for_status()
-            if "html" in response.headers.get("Content-Type", "").lower():
-                raise ValueError("转换 API 返回了 HTML 页面")
-            config_text = normalize_clash_config(response.text)
-            temp_path.write_text(config_text, encoding="utf-8")
-            temp_path.replace(CLASH_OUTPUT_PATH)
-            logger.info(
-                "已生成 {}（输入 {} 个订阅，{} 字节）",
-                CLASH_OUTPUT_PATH.name,
-                len(subscriptions),
-                CLASH_OUTPUT_PATH.stat().st_size,
-            )
-            return True
-        except (requests.RequestException, ValueError, OSError) as exc:
-            temp_path.unlink(missing_ok=True)
-            status_code = getattr(getattr(exc, "response", None), "status_code", None)
-            if attempt + 1 == MAX_RETRIES:
-                logger.error(
-                    "订阅转换失败，保留现有 {}（{}，HTTP {}）",
-                    CLASH_OUTPUT_PATH.name,
-                    type(exc).__name__,
-                    status_code or "n/a",
-                )
-                return False
-            logger.warning(
-                "订阅转换暂时失败，将重试（{}，HTTP {}）",
-                type(exc).__name__,
-                status_code or "n/a",
-            )
-            time.sleep(1.0 * (attempt + 1))
-    return False
+    try:
+        config_text = normalize_clash_config(converted_proxies)
+        temp_path.write_text(config_text, encoding="utf-8")
+        temp_path.replace(CLASH_OUTPUT_PATH)
+    except (ValueError, OSError) as exc:
+        temp_path.unlink(missing_ok=True)
+        logger.error("无法写入新的 {}（{}），保留现有配置", CLASH_OUTPUT_PATH.name, type(exc).__name__)
+        return False
+
+    logger.info(
+        "已生成 {}（输入 {} 个订阅，{} 个节点，{} 个订阅转换失败，{} 字节）",
+        CLASH_OUTPUT_PATH.name,
+        len(subscriptions),
+        len(converted_proxies),
+        failed_subscriptions,
+        CLASH_OUTPUT_PATH.stat().st_size,
+    )
+    return True
 
 
 def main() -> None:
