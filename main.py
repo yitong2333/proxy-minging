@@ -324,7 +324,9 @@ def main() -> None:
         "v2订阅": set(),
     }
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = [executor.submit(check_subscription, url) for url in candidate_urls]
+        futures = {
+            executor.submit(check_subscription, url): url for url in candidate_urls
+        }
         for future in tqdm(as_completed(futures), total=len(futures), desc="筛选订阅"):
             try:
                 category = future.result()
@@ -333,7 +335,7 @@ def main() -> None:
                 logger.error("筛选订阅时发生未处理异常（{}）", type(exc).__name__)
                 continue
             if category:
-                categories[category].add(url)
+                categories[category].add(futures[future])
 
     write_outputs(categories, candidate_urls, nodes)
     convert_subscriptions(set().union(*categories.values()))
