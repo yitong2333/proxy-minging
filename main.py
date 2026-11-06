@@ -46,6 +46,25 @@ PROXY_REQUIRED_FIELDS = {
     "anytls": {"password"},
     "snell": {"psk", "version"},
 }
+SUPPORTED_SS_CIPHERS = {
+    "aes-128-ctr", "aes-192-ctr", "aes-256-ctr",
+    "aes-128-cfb", "aes-192-cfb", "aes-256-cfb",
+    "aes-128-gcm", "aes-192-gcm", "aes-256-gcm",
+    "aes-128-ccm", "aes-192-ccm", "aes-256-ccm",
+    "aes-128-gcm-siv", "aes-256-gcm-siv",
+    "chacha20-ietf", "chacha20", "xchacha20",
+    "chacha20-ietf-poly1305", "xchacha20-ietf-poly1305",
+    "chacha8-ietf-poly1305", "xchacha8-ietf-poly1305",
+    "2022-blake3-aes-128-gcm", "2022-blake3-aes-256-gcm",
+    "2022-blake3-chacha20-poly1305",
+    "lea-128-gcm", "lea-192-gcm", "lea-256-gcm", "rabbit128-poly1305",
+}
+PROXY_ALLOWED_VALUES = {
+    "vmess": {"cipher": {"auto", "none", "zero", "aes-128-gcm", "chacha20-poly1305"}},
+    "vless": {"flow": {"xtls-rprx-vision", "xtls-rprx-vision-udp443"}},
+    "hysteria2": {"obfs": {"", "salamander", "gecko"}},
+    "hy2": {"obfs": {"", "salamander", "gecko"}},
+}
 FLAG_COUNTRY_NAMES = {
     "US": "美国", "GB": "英国", "JP": "日本", "KR": "韩国", "HK": "香港",
     "TW": "台湾", "CN": "中国", "SG": "新加坡", "DE": "德国", "FR": "法国",
@@ -282,7 +301,7 @@ def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
     valid_proxies = [proxy for proxy in candidates if is_valid_proxy(proxy)]
     invalid_count = len(candidates) - len(valid_proxies)
     if invalid_count:
-        logger.warning("过滤了 {} 个字段缺失或配置不完整的代理节点", invalid_count)
+        logger.warning("过滤了 {} 个字段缺失、值不受支持或配置不完整的代理节点", invalid_count)
     if not valid_proxies:
         raise ValueError("转换结果中没有有效代理节点")
     return valid_proxies
@@ -290,12 +309,18 @@ def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
 
 def is_valid_proxy(proxy: dict[str, Any]) -> bool:
     """Reject nodes missing protocol fields or incompatible transport settings."""
-    if proxy.get("reality-opts") and proxy.get("tls") is not True:
+    proxy_type = str(proxy.get("type", "")).lower()
+    reality_opts = proxy.get("reality-opts")
+    if reality_opts and proxy.get("tls") is not True:
+        return False
+    if reality_opts and (
+        not isinstance(reality_opts, dict) or not reality_opts.get("public-key")
+    ):
+        return False
+    if proxy_type == "anytls" and reality_opts:
         return False
 
-    required = {"server", "port"} | PROXY_REQUIRED_FIELDS.get(
-        str(proxy.get("type", "")).lower(), set()
-    )
+    required = {"server", "port"} | PROXY_REQUIRED_FIELDS.get(proxy_type, set())
     for field in required:
         value = proxy.get(field)
         if field in {"auth-str", "auth_str"}:
@@ -303,6 +328,14 @@ def is_valid_proxy(proxy: dict[str, Any]) -> bool:
         if value is None or value == "":
             return False
         if isinstance(value, str) and value.strip().lower() in {"none", "null"}:
+            return False
+
+    cipher = proxy.get("cipher")
+    if proxy_type == "ss" and cipher not in SUPPORTED_SS_CIPHERS:
+        return False
+    for field, supported_values in PROXY_ALLOWED_VALUES.get(proxy_type, {}).items():
+        value = proxy.get(field)
+        if value is not None and value not in supported_values:
             return False
     return True
 
@@ -351,7 +384,7 @@ def normalize_clash_config(proxies: list[dict[str, Any]]) -> str:
     valid_proxies = [proxy for proxy in proxies if is_valid_proxy(proxy)]
     invalid_count = len(proxies) - len(valid_proxies)
     if invalid_count:
-        logger.warning("生成配置前过滤了 {} 个字段缺失或配置不完整的节点", invalid_count)
+        logger.warning("生成配置前过滤了 {} 个字段缺失、值不受支持或配置不完整的节点", invalid_count)
 
     unique_proxies: list[dict[str, Any]] = []
     seen_nodes: set[str] = set()

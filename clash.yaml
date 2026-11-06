@@ -37755,20 +37755,6 @@ proxies:
   password: rSeYcig_XBy8q3k33NpK3A
   type: ss
   udp: true
-- name: PRX11 | @proxystore11 🇩🇪 VLESS-257
-  server: 31.76.11.83
-  port: 11650
-  cipher: chacha20-poly1305
-  password: iku/Gfrt9YeEUUleXr2Ptf3uvs0hszCR0JHPqGSjs+c=
-  type: ss
-  udp: true
-- name: PRX11 | @proxystore11 🇩🇪 VLESS-258
-  server: 31.77.148.89
-  port: 56752
-  cipher: chacha20-poly1305
-  password: rHmUhnjv7b+V8o3YWAMaIDBSBlgSNjv3zHYMu6ALFU8=
-  type: ss
-  udp: true
 - name: PRX11 | @proxystore11 🇩🇪 VLESS-259
   server: 37.221.114.179
   port: 14483
@@ -69150,13 +69136,6 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /drift
   xudp: true
-- name: 美国258频道：@jichangdl
-  server: 79.110.54.250
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 德国640频道：@jichangdl
   server: 172.67.156.121
   port: 443
@@ -70472,13 +70451,6 @@ proxies:
   udp: true
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   xudp: true
-- name: 英国532频道：@jichangdl
-  server: 146.70.46.199
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国949频道：@jichangdl
   server: 104.19.90.200
   port: 443
@@ -70606,13 +70578,6 @@ proxies:
   udp: true
   uuid: de883d6d-4099-41bc-ba86-82ffed64a380
   xudp: true
-- name: 新加坡17频道：@jichangdl
-  server: 128.1.186.132
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 新加坡896频道：@jichangdl-01
   server: 43.173.1.153
   port: 8443
@@ -70643,13 +70608,6 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 美国768频道：@jichangdl-01
-  server: 79.110.53.169
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 荷兰198频道：@jichangdl
   server: 51.158.206.97
   port: 23576
@@ -70827,13 +70785,6 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   xudp: true
-- name: 新加坡502频道：@jichangdl
-  server: 68.183.235.122
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 日本236频道：@jichangdl
   server: 152.69.195.67
   port: 47878
@@ -71777,13 +71728,6 @@ proxies:
   udp: true
   uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
   xudp: true
-- name: 美国114频道：@jichangdl
-  server: 98.98.79.198
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 随机573频道：@jichangdl
   server: 57.129.41.216
   port: 80
@@ -72440,13 +72384,6 @@ proxies:
   udp: true
   uuid: 8007dda2-aed2-4514-8299-6e3edbdb015b
   xudp: true
-- name: 美国400频道：@jichangdl
-  server: 23.251.121.242
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 荷兰318频道：@jichangdl-01
   server: 144.31.135.38
   port: 9444
@@ -73003,13 +72940,6 @@ proxies:
         Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: 美国979频道：@jichangdl
-  server: 138.199.43.159
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国306频道：@jichangdl
   server: 172.64.144.148
   port: 443
@@ -74883,13 +74813,6 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   xudp: true
-- name: 美国325频道：@jichangdl
-  server: 107.151.182.197
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国575频道：@jichangdl
   server: 104.26.13.31
   port: 2082
@@ -75567,13 +75490,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   type: ss
   udp: true
-- name: 德国865频道：@jichangdl
-  server: 169.150.210.233
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 德国71频道：@jichangdl
   server: 185.125.103.62
   port: 8082
@@ -75607,13 +75523,6 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   xudp: true
-- name: 新加坡348频道：@jichangdl
-  server: 68.183.227.236
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 日本480频道：@jichangdl
   server: 203.137.165.164
   port: 57554
@@ -76092,13 +76001,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/41.0.2272.101 Safari/537.36
     path: /assignment
-- name: 加拿大167频道：@jichangdl
-  server: 137.184.174.93
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国835频道：@jichangdl-01
   server: 104.17.112.90
   port: 2053
@@ -76446,13 +76348,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /assignment
-- name: 新加坡396频道：@jichangdl
-  server: 128.199.172.224
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 日本976频道：@jichangdl
   server: g03.jp02-e3-vm0.entry.fr0528.art
   port: 11775
@@ -76996,13 +76891,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/67.0.3396.99 Safari/537.36
     path: /assignment
-- name: 美国143频道：@jichangdl
-  server: 107.151.182.253
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国197频道：@jichangdl
   server: 172.67.73.213
   port: 443
@@ -78829,13 +78717,6 @@ proxies:
   sni: www.unlockyourfuturefindyourperfectcareer.com
   type: trojan
   udp: true
-- name: 美国639频道：@jichangdl
-  server: 107.155.57.11
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 芬兰797频道：@jichangdl
   server: 104.25.239.113
   port: 2053
@@ -80168,13 +80049,6 @@ proxies:
   sni: api.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
-- name: 新加坡713频道：@jichangdl
-  server: 68.183.227.45
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 荷兰464频道：@jichangdl-01
   server: 104.239.12.81
   port: 443
@@ -80811,13 +80685,6 @@ proxies:
         Mobile Safari/537.36
     path: /id-pusat
   xudp: true
-- name: 英国807频道：@jichangdl
-  server: 146.70.61.18
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 法国597频道：@jichangdl
   server: web-tomcat.pages.dev
   port: 443
@@ -82211,13 +82078,6 @@ proxies:
   type: vless
   udp: true
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
-- name: 德国583频道：@jichangdl
-  server: 146.70.20.147
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 印度494频道：@jichangdl
   server: 5.253.30.99
   port: 40443
@@ -82813,13 +82673,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/32.0.1700.107 Safari/537.36
     path: /assignment
-- name: 英国6频道：@jichangdl
-  server: 146.70.46.214
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 土耳其770频道：@jichangdl
   server: 62.133.63.45
   port: 8444
@@ -83562,13 +83415,6 @@ proxies:
         (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
     path: /rain1226
   xudp: true
-- name: 美国441频道：@jichangdl-03
-  server: 138.199.42.68
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 新加坡847频道：@jichangdl
   server: 170.114.45.6
   port: 8080
@@ -83707,13 +83553,6 @@ proxies:
         like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: 加拿大358频道：@jichangdl
-  server: 138.197.141.58
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 澳大利亚652频道：@jichangdl
   server: 45.63.30.142
   port: 443
@@ -84460,13 +84299,6 @@ proxies:
         Chrome/v1.0.0 Safari/538.1
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
   xudp: true
-- name: 新加坡648频道：@jichangdl
-  server: 68.183.235.240
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 罗马尼亚66频道：@jichangdl
   server: edge10.cyrionflare.com
   port: 2052
@@ -89855,13 +89687,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: 英国340频道：@jichangdl
-  server: 146.70.61.37
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 新加坡383频道：@jichangdl
   server: az-1.linkaa.xyz
   port: 53437
@@ -90574,13 +90399,6 @@ proxies:
         Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /connect
   xudp: true
-- name: 新加坡13频道：@jichangdl-01
-  server: 68.183.227.4
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 荷兰647频道：@jichangdl
   server: 172.64.151.20
   port: 443
@@ -93937,13 +93755,6 @@ proxies:
   sni: th001.zestapp778.com
   type: trojan
   udp: true
-- name: 新加坡400频道：@jichangdl
-  server: 128.1.186.73
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 荷兰512频道：@jichangdl-01
   server: 104.18.33.121
   port: 443
@@ -95699,13 +95510,6 @@ proxies:
         Chrome/49.0.2623.112 Safari/537.36
     path: /
   xudp: true
-- name: 英国863频道：@jichangdl
-  server: 98.98.142.161
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 加拿大538频道：@jichangdl
   server: milo.rubinaz.xyz
   port: 8080
@@ -97109,13 +96913,6 @@ proxies:
   udp: true
   uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
   xudp: true
-- name: 美国2频道：@jichangdl-01
-  server: 107.155.57.51
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  type: ss
-  udp: true
 - name: 美国74频道：@jichangdl-02
   server: 172.67.199.126
   port: 2053
@@ -97710,13 +97507,6 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-  type: ss
-  udp: true
-- name: 英国321频道：@jichangdl
-  server: 98.98.207.163
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
   type: ss
   udp: true
 - name: 荷兰976频道：@jichangdl
@@ -147480,7 +147270,6 @@ proxy-groups:
   - 加拿大136频道：@jichangdl
   - 加拿大137频道：@jichangdl
   - 加拿大13频道：@jichangdl
-  - 加拿大167频道：@jichangdl
   - 加拿大168频道：@jichangdl
   - 加拿大170频道：@jichangdl
   - 加拿大186频道：@jichangdl
@@ -147505,7 +147294,6 @@ proxy-groups:
   - 加拿大333频道：@jichangdl
   - 加拿大339频道：@jichangdl
   - 加拿大340频道：@jichangdl
-  - 加拿大358频道：@jichangdl
   - 加拿大371频道：@jichangdl
   - 加拿大374频道：@jichangdl
   - 加拿大393频道：@jichangdl
@@ -148295,8 +148083,6 @@ proxy-groups:
   - PRX11 | @proxystore11 🇩🇪 VLESS-254
   - PRX11 | @proxystore11 🇩🇪 VLESS-255
   - PRX11 | @proxystore11 🇩🇪 VLESS-256
-  - PRX11 | @proxystore11 🇩🇪 VLESS-257
-  - PRX11 | @proxystore11 🇩🇪 VLESS-258
   - PRX11 | @proxystore11 🇩🇪 VLESS-259
   - PRX11 | @proxystore11 🇩🇪 VLESS-260
   - PRX11 | @proxystore11 🇩🇪 VLESS-27
@@ -148569,7 +148355,6 @@ proxy-groups:
   - 德国57频道：@jichangdl
   - 德国580频道：@jichangdl
   - 德国582频道：@jichangdl
-  - 德国583频道：@jichangdl
   - 德国590频道：@jichangdl
   - 德国591频道：@jichangdl
   - 德国597频道：@jichangdl
@@ -148684,7 +148469,6 @@ proxy-groups:
   - 德国861频道：@jichangdl-01
   - 德国864频道：@jichangdl
   - 德国864频道：@jichangdl-01
-  - 德国865频道：@jichangdl
   - 德国865频道：@jichangdl-01
   - 德国867频道：@jichangdl
   - 德国870频道：@jichangdl
@@ -149100,7 +148884,6 @@ proxy-groups:
   - 新加坡134频道：@jichangdl
   - 新加坡138频道：@jichangdl
   - 新加坡13频道：@jichangdl
-  - 新加坡13频道：@jichangdl-01
   - 新加坡13频道：@jichangdl-02
   - 新加坡147频道：@jichangdl-01
   - 新加坡14频道：@jichangdl
@@ -149111,7 +148894,6 @@ proxy-groups:
   - 新加坡164频道：@jichangdl
   - 新加坡168频道：@jichangdl
   - 新加坡170频道：@jichangdl
-  - 新加坡17频道：@jichangdl
   - 新加坡195频道：@jichangdl
   - 新加坡19频道：@jichangdl
   - 新加坡202频道：@jichangdl
@@ -149148,7 +148930,6 @@ proxy-groups:
   - 新加坡331频道：@jichangdl
   - 新加坡340频道：@jichangdl
   - 新加坡344频道：@jichangdl
-  - 新加坡348频道：@jichangdl
   - 新加坡348频道：@jichangdl-01
   - 新加坡356频道：@jichangdl
   - 新加坡363频道：@jichangdl
@@ -149163,8 +148944,6 @@ proxy-groups:
   - 新加坡38频道：@jichangdl
   - 新加坡392频道：@jichangdl
   - 新加坡393频道：@jichangdl
-  - 新加坡396频道：@jichangdl
-  - 新加坡400频道：@jichangdl
   - 新加坡402频道：@jichangdl
   - 新加坡402频道：@jichangdl-01
   - 新加坡404频道：@jichangdl
@@ -149195,7 +148974,6 @@ proxy-groups:
   - 新加坡494频道：@jichangdl
   - 新加坡49频道：@jichangdl
   - 新加坡4频道：@jichangdl
-  - 新加坡502频道：@jichangdl
   - 新加坡506频道：@jichangdl-01
   - 新加坡508频道：@jichangdl
   - 新加坡517频道：@jichangdl
@@ -149237,7 +149015,6 @@ proxy-groups:
   - 新加坡639频道：@jichangdl
   - 新加坡640频道：@jichangdl
   - 新加坡642频道：@jichangdl
-  - 新加坡648频道：@jichangdl
   - 新加坡64频道：@jichangdl
   - 新加坡650频道：@jichangdl
   - 新加坡654频道：@jichangdl
@@ -149258,7 +149035,6 @@ proxy-groups:
   - 新加坡699频道：@jichangdl-01
   - 新加坡709频道：@jichangdl
   - 新加坡70频道：@jichangdl
-  - 新加坡713频道：@jichangdl
   - 新加坡714频道：@jichangdl
   - 新加坡719频道：@jichangdl
   - 新加坡733频道：@jichangdl
@@ -153816,7 +153592,6 @@ proxy-groups:
   - 美国111频道：@jichangdl
   - 美国112频道：@jichangdl
   - 美国112频道：@jichangdl-03
-  - 美国114频道：@jichangdl
   - 美国114频道：@jichangdl-01
   - 美国116频道：@jichangdl
   - 美国117频道：@jichangdl
@@ -153839,7 +153614,6 @@ proxy-groups:
   - 美国135频道：@jichangdl-01
   - 美国135频道：@jichangdl-04
   - 美国139频道：@jichangdl
-  - 美国143频道：@jichangdl
   - 美国145频道：@jichangdl-01
   - 美国146频道：@jichangdl
   - 美国147频道：@jichangdl
@@ -153946,7 +153720,6 @@ proxy-groups:
   - 美国253频道：@jichangdl-01
   - 美国256频道：@jichangdl
   - 美国256频道：@jichangdl-02
-  - 美国258频道：@jichangdl
   - 美国258频道：@jichangdl-01
   - 美国262频道：@jichangdl-01
   - 美国263频道：@jichangdl
@@ -153991,7 +153764,6 @@ proxy-groups:
   - 美国295频道：@jichangdl
   - 美国296频道：@jichangdl-01
   - 美国2频道：@jichangdl
-  - 美国2频道：@jichangdl-01
   - 美国300频道：@jichangdl
   - 美国300频道：@jichangdl-01
   - 美国302频道：@jichangdl
@@ -154011,7 +153783,6 @@ proxy-groups:
   - 美国320频道：@jichangdl
   - 美国321频道：@jichangdl
   - 美国321频道：@jichangdl-01
-  - 美国325频道：@jichangdl
   - 美国325频道：@jichangdl-01
   - 美国325频道：@jichangdl-02
   - 美国329频道：@jichangdl-01
@@ -154084,7 +153855,6 @@ proxy-groups:
   - 美国39频道：@jichangdl
   - 美国39频道：@jichangdl-01
   - 美国3频道：@jichangdl
-  - 美国400频道：@jichangdl
   - 美国400频道：@jichangdl-01
   - 美国400频道：@jichangdl-02
   - 美国401频道：@jichangdl
@@ -154131,7 +153901,6 @@ proxy-groups:
   - 美国440频道：@jichangdl-01
   - 美国441频道：@jichangdl-01
   - 美国441频道：@jichangdl-02
-  - 美国441频道：@jichangdl-03
   - 美国444频道：@jichangdl
   - 美国444频道：@jichangdl-01
   - 美国444频道：@jichangdl-03
@@ -154321,7 +154090,6 @@ proxy-groups:
   - 美国636频道：@jichangdl
   - 美国638频道：@jichangdl
   - 美国638频道：@jichangdl-01
-  - 美国639频道：@jichangdl
   - 美国639频道：@jichangdl-01
   - 美国639频道：@jichangdl-02
   - 美国639频道：@jichangdl-05
@@ -154442,7 +154210,6 @@ proxy-groups:
   - 美国767频道：@jichangdl-01
   - 美国767频道：@jichangdl-02
   - 美国768频道：@jichangdl
-  - 美国768频道：@jichangdl-01
   - 美国769频道：@jichangdl
   - 美国769频道：@jichangdl-01
   - 美国76频道：@jichangdl-02
@@ -154646,7 +154413,6 @@ proxy-groups:
   - 美国976频道：@jichangdl-01
   - 美国977频道：@jichangdl
   - 美国977频道：@jichangdl-01
-  - 美国979频道：@jichangdl
   - 美国980频道：@jichangdl
   - 美国980频道：@jichangdl-02
   - 美国981频道：@jichangdl
@@ -155283,10 +155049,8 @@ proxy-groups:
   - 英国307频道：@jichangdl
   - 英国312频道：@jichangdl
   - 英国316频道：@jichangdl-01
-  - 英国321频道：@jichangdl
   - 英国32频道：@jichangdl
   - 英国339频道：@jichangdl
-  - 英国340频道：@jichangdl
   - 英国340频道：@jichangdl-01
   - 英国345频道：@jichangdl
   - 英国368频道：@jichangdl
@@ -155318,7 +155082,6 @@ proxy-groups:
   - 英国521频道：@jichangdl
   - 英国525频道：@jichangdl
   - 英国529频道：@jichangdl
-  - 英国532频道：@jichangdl
   - 英国546频道：@jichangdl
   - 英国550频道：@jichangdl
   - 英国566频道：@jichangdl
@@ -155341,7 +155104,6 @@ proxy-groups:
   - 英国666频道：@jichangdl
   - 英国690频道：@jichangdl
   - 英国694频道：@jichangdl
-  - 英国6频道：@jichangdl
   - 英国6频道：@jichangdl-01
   - 英国707频道：@jichangdl
   - 英国723频道：@jichangdl
@@ -155363,7 +155125,6 @@ proxy-groups:
   - 英国796频道：@jichangdl
   - 英国797频道：@jichangdl
   - 英国799频道：@jichangdl
-  - 英国807频道：@jichangdl
   - 英国811频道：@jichangdl
   - 英国823频道：@jichangdl
   - 英国825频道：@jichangdl
@@ -155372,7 +155133,6 @@ proxy-groups:
   - 英国836频道：@jichangdl
   - 英国842频道：@jichangdl
   - 英国851频道：@jichangdl
-  - 英国863频道：@jichangdl
   - 英国86频道：@jichangdl
   - 英国878频道：@jichangdl
   - 英国880频道：@jichangdl
