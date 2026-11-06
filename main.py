@@ -22,6 +22,8 @@ from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.yaml"
+CLASH_OUTPUT_PATH = ROOT / "clash.yaml"
+SUBCONVERTER_API = "https://api.asailor.org/sub"
 MAX_WORKERS = 64
 MAX_CHANNEL_WORKERS = 16
 REQUEST_TIMEOUT = (5, 10)
@@ -145,7 +147,12 @@ def check_subscription(url: str) -> str | None:
             break
         except requests.RequestException as exc:
             if attempt + 1 == MAX_RETRIES:
-                logger.debug("订阅不可用 {}: {}", url, exc)
+                status_code = getattr(getattr(exc, "response", None), "status_code", None)
+                logger.debug(
+                    "订阅不可用（{}，HTTP {}）",
+                    type(exc).__name__,
+                    status_code or "n/a",
+                )
                 return None
             time.sleep(0.25 * (attempt + 1))
 
@@ -190,6 +197,104 @@ def write_outputs(
     write_text(ROOT / "v2ray.txt", sorted(unquote(node) for node in nodes))
 
 
+def normalize_clash_config(content: str) -> str:
+    """Validate converter output and ensure it can be loaded as a Clash profile."""
+    try:
+        config = yaml.safe_load(content)
+    except yaml.YAMLError as exc:
+        raise ValueError("转换 API 返回的内容不是有效 YAML") from exc
+    if not isinstance(config, dict):
+        raise ValueError("转换 API 没有返回 YAML 配置对象")
+
+    proxies = config.get("proxies")
+    providers = config.get("proxy-providers")
+    proxy_names = [
+        proxy.get("name")
+        for proxy in (proxies if isinstance(proxies, list) else [])
+        if isinstance(proxy, dict) and isinstance(proxy.get("name"), str)
+    ]
+    provider_names = list(providers) if isinstance(providers, dict) else []
+    if not proxy_names and not provider_names:
+        raise ValueError("转换结果中没有代理节点或 proxy-providers")
+
+    groups = config.get("proxy-groups")
+    if not isinstance(groups, list) or not groups:
+        group_name = "Proxy"
+        group: dict[str, Any] = {"name": group_name, "type": "select"}
+        if proxy_names:
+            group["proxies"] = proxy_names + ["DIRECT"]
+        if provider_names:
+            group["use"] = provider_names
+        config["proxy-groups"] = [group]
+    else:
+        group_name = next(
+            (
+                group.get("name")
+                for group in groups
+                if isinstance(group, dict) and isinstance(group.get("name"), str)
+            ),
+            "Proxy",
+        )
+
+    if not isinstance(config.get("rules"), list) or not config["rules"]:
+        config["rules"] = [f"MATCH,{group_name}"]
+
+    return yaml.safe_dump(config, allow_unicode=True, sort_keys=False)
+
+
+def convert_subscriptions(subscriptions: set[str]) -> bool:
+    """Convert the current subscriptions and atomically publish the Clash profile."""
+    if not subscriptions:
+        logger.warning("没有通过筛选的订阅，保留现有 {}", CLASH_OUTPUT_PATH.name)
+        return False
+
+    params = {
+        "target": "clash",
+        "list": "true",
+        "url": "|".join(sorted(subscriptions)),
+    }
+    temp_path = CLASH_OUTPUT_PATH.with_suffix(".yaml.tmp")
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(
+                SUBCONVERTER_API,
+                params=params,
+                headers={"User-Agent": USER_AGENT},
+                timeout=(10, 120),
+            )
+            response.raise_for_status()
+            if "html" in response.headers.get("Content-Type", "").lower():
+                raise ValueError("转换 API 返回了 HTML 页面")
+            config_text = normalize_clash_config(response.text)
+            temp_path.write_text(config_text, encoding="utf-8")
+            temp_path.replace(CLASH_OUTPUT_PATH)
+            logger.info(
+                "已生成 {}（输入 {} 个订阅，{} 字节）",
+                CLASH_OUTPUT_PATH.name,
+                len(subscriptions),
+                CLASH_OUTPUT_PATH.stat().st_size,
+            )
+            return True
+        except (requests.RequestException, ValueError, OSError) as exc:
+            temp_path.unlink(missing_ok=True)
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            if attempt + 1 == MAX_RETRIES:
+                logger.error(
+                    "订阅转换失败，保留现有 {}（{}，HTTP {}）",
+                    CLASH_OUTPUT_PATH.name,
+                    type(exc).__name__,
+                    status_code or "n/a",
+                )
+                return False
+            logger.warning(
+                "订阅转换暂时失败，将重试（{}，HTTP {}）",
+                type(exc).__name__,
+                status_code or "n/a",
+            )
+            time.sleep(1.0 * (attempt + 1))
+    return False
+
+
 def main() -> None:
     channels = load_channels()
     logger.info("读取到 {} 个 Telegram 频道", len(channels))
@@ -219,20 +324,19 @@ def main() -> None:
         "v2订阅": set(),
     }
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {
-            executor.submit(check_subscription, url): url for url in candidate_urls
-        }
+        futures = [executor.submit(check_subscription, url) for url in candidate_urls]
         for future in tqdm(as_completed(futures), total=len(futures), desc="筛选订阅"):
-            url = futures[future]
             try:
                 category = future.result()
-            except Exception:
-                logger.exception("筛选订阅时发生未处理异常: {}", url)
+            except Exception as exc:
+                # Subscription URLs can contain credentials; never include them in Actions logs.
+                logger.error("筛选订阅时发生未处理异常（{}）", type(exc).__name__)
                 continue
             if category:
                 categories[category].add(url)
 
     write_outputs(categories, candidate_urls, nodes)
+    convert_subscriptions(set().union(*categories.values()))
     logger.info(
         "完成：候选订阅 {} 个，机场 {} 个，Clash {} 个，节点 {} 个",
         len(candidate_urls),
