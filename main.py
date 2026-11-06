@@ -33,6 +33,67 @@ REQUEST_TIMEOUT = (5, 10)
 MAX_RETRIES = 2
 MIN_REMAINING_BYTES = 1024**3
 USER_AGENT = "clash-verge/v2.0.2"
+PROXY_REQUIRED_FIELDS = {
+    "ss": {"cipher", "password"},
+    "ssr": {"cipher", "password", "protocol", "obfs"},
+    "vmess": {"uuid", "cipher"},
+    "vless": {"uuid"},
+    "trojan": {"password"},
+    "hysteria": {"auth-str"},
+    "hysteria2": {"password"},
+    "hy2": {"password"},
+    "tuic": {"uuid", "password"},
+    "anytls": {"password"},
+    "snell": {"psk", "version"},
+}
+FLAG_COUNTRY_NAMES = {
+    "US": "美国", "GB": "英国", "JP": "日本", "KR": "韩国", "HK": "香港",
+    "TW": "台湾", "CN": "中国", "SG": "新加坡", "DE": "德国", "FR": "法国",
+    "NL": "荷兰", "IT": "意大利", "CA": "加拿大", "RU": "俄罗斯", "ES": "西班牙",
+    "SE": "瑞典", "CH": "瑞士", "FI": "芬兰", "NO": "挪威", "AU": "澳大利亚",
+    "ID": "印度尼西亚", "TR": "土耳其", "UA": "乌克兰", "BR": "巴西", "IN": "印度",
+    "AE": "阿联酋", "IR": "伊朗", "PL": "波兰", "CZ": "捷克", "RO": "罗马尼亚",
+    "AT": "奥地利", "BE": "比利时", "DK": "丹麦", "TH": "泰国", "VN": "越南",
+    "MX": "墨西哥", "ZA": "南非", "IL": "以色列", "AR": "阿根廷", "EG": "埃及",
+    "IS": "冰岛", "PT": "葡萄牙", "IE": "爱尔兰", "RS": "塞尔维亚", "BG": "保加利亚",
+    "EE": "爱沙尼亚", "LT": "立陶宛", "LV": "拉脱维亚", "HU": "匈牙利",
+    "NP": "尼泊尔", "KH": "柬埔寨", "MY": "马来西亚", "PH": "菲律宾", "PK": "巴基斯坦",
+    "UZ": "乌兹别克斯坦", "AZ": "阿塞拜疆", "AL": "阿尔巴尼亚", "BA": "波黑",
+    "VE": "委内瑞拉", "EC": "厄瓜多尔", "CM": "喀麦隆", "CY": "塞浦路斯",
+    "SC": "塞舌尔", "BZ": "伯利兹", "DO": "多米尼加", "SK": "斯洛伐克",
+    "AM": "亚美尼亚", "KZ": "哈萨克斯坦", "RS": "塞尔维亚", "SI": "斯洛文尼亚",
+    "CR": "哥斯达黎加",
+}
+COUNTRY_ALIASES = {
+    "us": "美国", "usa": "美国", "united states": "美国",
+    "united states of america": "美国", "uk": "英国", "gb": "英国",
+    "great britain": "英国", "united kingdom": "英国", "south korea": "韩国",
+    "korea": "韩国", "hong kong": "香港", "taiwan": "台湾", "china": "中国",
+    "singapore": "新加坡", "germany": "德国", "france": "法国", "netherlands": "荷兰",
+    "the netherlands": "荷兰", "holland": "荷兰", "italy": "意大利", "canada": "加拿大",
+    "russia": "俄罗斯", "spain": "西班牙", "sweden": "瑞典", "switzerland": "瑞士",
+    "finland": "芬兰", "norway": "挪威", "australia": "澳大利亚",
+    "indonesia": "印度尼西亚", "turkey": "土耳其", "türkiye": "土耳其",
+    "ukraine": "乌克兰", "brazil": "巴西", "india": "印度", "uae": "阿联酋",
+    "united arab emirates": "阿联酋", "iran": "伊朗", "poland": "波兰",
+    "czechia": "捷克", "czech republic": "捷克", "romania": "罗马尼亚",
+    "austria": "奥地利", "belgium": "比利时", "denmark": "丹麦", "thailand": "泰国",
+    "vietnam": "越南", "mexico": "墨西哥", "south africa": "南非", "israel": "以色列",
+    "argentina": "阿根廷", "egypt": "埃及", "iceland": "冰岛", "portugal": "葡萄牙",
+    "ireland": "爱尔兰", "serbia": "塞尔维亚", "bulgaria": "保加利亚",
+    "estonia": "爱沙尼亚", "lithuania": "立陶宛", "latvia": "拉脱维亚",
+    "hungary": "匈牙利", "nepal": "尼泊尔", "cambodia": "柬埔寨",
+    "malaysia": "马来西亚", "philippines": "菲律宾", "pakistan": "巴基斯坦",
+    "uzbekistan": "乌兹别克斯坦", "azerbaijan": "阿塞拜疆", "albania": "阿尔巴尼亚",
+    "bosnia": "波黑", "bosnia and herzegovina": "波黑", "venezuela": "委内瑞拉",
+    "ecuador": "厄瓜多尔", "cameroon": "喀麦隆", "cyprus": "塞浦路斯",
+    "seychelles": "塞舌尔", "belize": "伯利兹", "dominican republic": "多米尼加",
+    "slovakia": "斯洛伐克", "armenia": "亚美尼亚", "kazakhstan": "哈萨克斯坦",
+    "slovenia": "斯洛文尼亚", "chile": "智利", "japan": "日本",
+    "costa rica": "哥斯达黎加", "greece": "希腊", "new zealand": "新西兰",
+    "cuba": "古巴", "iraq": "伊拉克", "yemen": "也门", "qatar": "卡塔尔",
+    "luxembourg": "卢森堡", "greenland": "格陵兰", "macau": "澳门",
+}
 
 URL_PATTERN = re.compile(
     r"https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]"
@@ -42,6 +103,7 @@ NODE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 NODE_SCHEMES = ("ss://", "ssr://", "vmess://", "trojan://", "vless://")
+COUNTRY_FLAG_PATTERN = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")
 ALLOW_URL_PARTS = (
     "sub",
     "clash",
@@ -212,14 +274,73 @@ def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
     proxies = config.get("proxies")
     if not isinstance(proxies, list):
         raise ValueError("转换结果中没有 proxies 节点列表")
-    valid_proxies = [
+    candidates = [
         proxy
         for proxy in proxies
         if isinstance(proxy, dict) and isinstance(proxy.get("name"), str)
     ]
+    valid_proxies = [proxy for proxy in candidates if is_valid_proxy(proxy)]
+    invalid_count = len(candidates) - len(valid_proxies)
+    if invalid_count:
+        logger.warning("过滤了 {} 个缺少必填字段的代理节点", invalid_count)
     if not valid_proxies:
         raise ValueError("转换结果中没有有效代理节点")
     return valid_proxies
+
+
+def is_valid_proxy(proxy: dict[str, Any]) -> bool:
+    """Reject nodes missing fields required by their Mihomo protocol."""
+    required = {"server", "port"} | PROXY_REQUIRED_FIELDS.get(
+        str(proxy.get("type", "")).lower(), set()
+    )
+    for field in required:
+        value = proxy.get(field)
+        if field in {"auth-str", "auth_str"}:
+            value = proxy.get("auth-str") or proxy.get("auth_str")
+        if value is None or value == "":
+            return False
+        if isinstance(value, str) and value.strip().lower() in {"none", "null"}:
+            return False
+    return True
+
+
+def country_from_proxy_name(name: str) -> str:
+    """Infer a country label from a flag or recognized country name."""
+    known_countries = set(FLAG_COUNTRY_NAMES.values()) | {
+        "波斯尼亚和黑塞哥维那", "智利", "哥斯达黎加", "希腊", "新西兰",
+        "古巴", "伊拉克", "也门", "卡塔尔", "卢森堡", "格陵兰", "澳门",
+    }
+
+    flag_match = COUNTRY_FLAG_PATTERN.search(name)
+    if flag_match:
+        code = "".join(
+            chr(ord(char) - 0x1F1E6 + ord("A")) for char in flag_match.group(0)
+        )
+        if code in FLAG_COUNTRY_NAMES:
+            return FLAG_COUNTRY_NAMES[code]
+        tail = name[flag_match.end() :]
+        chinese_labels = [
+            country
+            for country in known_countries
+            if country in tail
+        ]
+        if chinese_labels:
+            return max(chinese_labels, key=len)
+        english_label = re.split(r"[_|/·-]", tail.strip(" _-|/·"), maxsplit=1)[0].strip()
+        if english_label and re.fullmatch(r"[A-Za-z][A-Za-z .'-]*", english_label):
+            return COUNTRY_ALIASES.get(english_label.lower(), "未知地区")
+        return "未知地区"
+
+    chinese_labels = [country for country in known_countries if country in name]
+    if chinese_labels:
+        return max(chinese_labels, key=len)
+
+    prefix = re.split(r"[_|/·]", name, maxsplit=1)[0].strip()
+    if prefix and re.fullmatch(r"[A-Za-z][A-Za-z .'-]*", prefix):
+        if prefix.lower() in {"unknown", "other", "none"}:
+            return "未知地区"
+        return COUNTRY_ALIASES.get(prefix.lower(), "未知地区")
+    return "未知地区"
 
 
 def normalize_clash_config(proxies: list[dict[str, Any]]) -> str:
@@ -250,15 +371,33 @@ def normalize_clash_config(proxies: list[dict[str, Any]]) -> str:
     if not unique_proxies:
         raise ValueError("去重后没有可用代理节点")
 
+    country_nodes: dict[str, list[str]] = {}
+    for proxy in unique_proxies:
+        country = country_from_proxy_name(proxy["name"])
+        country_nodes.setdefault(country, []).append(proxy["name"])
+
+    country_group_names = {
+        country: f"国家 - {country}" for country in sorted(country_nodes)
+    }
+    proxy_groups = [
+        {
+            "name": "Proxy",
+            "type": "select",
+            "proxies": list(country_group_names.values()) + ["DIRECT"],
+        }
+    ]
+    proxy_groups.extend(
+        {
+            "name": country_group_names[country],
+            "type": "select",
+            "proxies": sorted(names),
+        }
+        for country, names in sorted(country_nodes.items())
+    )
+
     config = {
         "proxies": unique_proxies,
-        "proxy-groups": [
-            {
-                "name": "Proxy",
-                "type": "select",
-                "proxies": [proxy["name"] for proxy in unique_proxies] + ["DIRECT"],
-            }
-        ],
+        "proxy-groups": proxy_groups,
         "rules": ["MATCH,Proxy"],
     }
     return yaml.safe_dump(config, allow_unicode=True, sort_keys=False)
