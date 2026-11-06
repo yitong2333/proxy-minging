@@ -35033,17 +35033,6 @@ proxies:
   udp: true
   uuid: 7e81eba3-28fe-4cf6-b397-d5c08fea38ab
   xudp: true
-- name: PRX11 | @proxystore11 🇩🇪 VLESS-145
-  server: 162.19.156.14
-  port: 6800
-  network: tcp
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-    short-id: ''
-  type: vless
-  udp: true
-  uuid: 7595cd50-9326-48e4-a7bc-802e85e643ec
-  xudp: true
 - name: PRX11 | @proxystore11 🇳🇱 VLESS-107
   server: 79.141.164.81
   port: 443
@@ -148783,7 +148772,6 @@ proxy-groups:
   - PRX11 | @proxystore11 🇩🇪 VLESS-142
   - PRX11 | @proxystore11 🇩🇪 VLESS-143
   - PRX11 | @proxystore11 🇩🇪 VLESS-144
-  - PRX11 | @proxystore11 🇩🇪 VLESS-145
   - PRX11 | @proxystore11 🇩🇪 VLESS-146
   - PRX11 | @proxystore11 🇩🇪 VLESS-147
   - PRX11 | @proxystore11 🇩🇪 VLESS-148

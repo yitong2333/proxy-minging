@@ -282,14 +282,17 @@ def parse_converter_proxies(content: str) -> list[dict[str, Any]]:
     valid_proxies = [proxy for proxy in candidates if is_valid_proxy(proxy)]
     invalid_count = len(candidates) - len(valid_proxies)
     if invalid_count:
-        logger.warning("过滤了 {} 个缺少必填字段的代理节点", invalid_count)
+        logger.warning("过滤了 {} 个字段缺失或配置不完整的代理节点", invalid_count)
     if not valid_proxies:
         raise ValueError("转换结果中没有有效代理节点")
     return valid_proxies
 
 
 def is_valid_proxy(proxy: dict[str, Any]) -> bool:
-    """Reject nodes missing fields required by their Mihomo protocol."""
+    """Reject nodes missing protocol fields or incompatible transport settings."""
+    if proxy.get("reality-opts") and proxy.get("tls") is not True:
+        return False
+
     required = {"server", "port"} | PROXY_REQUIRED_FIELDS.get(
         str(proxy.get("type", "")).lower(), set()
     )
@@ -345,11 +348,16 @@ def country_from_proxy_name(name: str) -> str:
 
 def normalize_clash_config(proxies: list[dict[str, Any]]) -> str:
     """Build one Clash profile from converted nodes with unique names."""
+    valid_proxies = [proxy for proxy in proxies if is_valid_proxy(proxy)]
+    invalid_count = len(proxies) - len(valid_proxies)
+    if invalid_count:
+        logger.warning("生成配置前过滤了 {} 个字段缺失或配置不完整的节点", invalid_count)
+
     unique_proxies: list[dict[str, Any]] = []
     seen_nodes: set[str] = set()
     used_names: set[str] = set()
 
-    for original in proxies:
+    for original in valid_proxies:
         proxy = dict(original)
         identity = dict(proxy)
         identity.pop("name", None)
