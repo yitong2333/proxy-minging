@@ -1,6 +1,4 @@
 机场订阅:
-- https://jikun.zmxoo.xyz/subapi?token=free_R4kT9mX2pL7vQ8n&placeholder=1
-- https://jikun.zmxoo.xyz/subapi?token=free_R4kT9mX2pL7vQ8n&placeholder=1&placeholder=2&placeholder=3
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
 - https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=cd5e6d1d74b917d4276e928842b87d16
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
@@ -10,9 +8,11 @@ clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
 - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+- https://github.com/0KABE/ConfConvertor#clash
 - https://ip.ikez.dpdns.org/sub?host=google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.&uuid=f8975871-a7a0-4906-8835-a23c1258ca1e&path=%2F&sni=google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.&type=---&alpn=&alterid=0&security=auto
 - https://ip.ikez.dpdns.org/sub?host=q.ikez.dpdns.org&uuid=8e34e170-13ae-4892-9d20-05962acc9f84&path=%2F&sni=q.ikez.dpdns.org&type=---&alpn=&alterid=0&security=auto
 - https://ips.ikez.dpdns.org/sub?uuid=eeb6823c-b926-4ea2-866a-5542edd26e59&type=ws&encryption=none&flow=&host=xy430.albertabobbi.ndjp.net&path=%2F%3Fed%3D2560&security=tls&sni=xy430.albertabobbi.ndjp.net&fp=chrome
+- https://nodebuf.com/node-sub/f753e0e8043adef7a6ce688a69836cc679e6bda07819da518922402c6ae0b86b/mihomo
 - https://raw.githubusercontent.com/AlienVPN402/Clash-Subscribe/main/index.html
 - https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/clash_config.yaml
 - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
@@ -24,6 +24,8 @@ v2订阅:
 - https://app.sublink.works/x/OX6yTXl
 - https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
+- https://jikun.zmxoo.xyz/subapi?token=free_R4kT9mX2pL7vQ8n&placeholder=1
+- https://jikun.zmxoo.xyz/subapi?token=free_R4kT9mX2pL7vQ8n&placeholder=1&placeholder=2&placeholder=3
 - https://jikun.zmxoo.xyz/subapi?token=free_mmkusQmi0onE3jT&placeholder=1
 - https://jikun.zmxoo.xyz/subapi?token=free_mmkusQmi0onE3jT&placeholder=1&placeholder=2&placeholder=3
 - https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt?s=09#Anonymous-Multi
