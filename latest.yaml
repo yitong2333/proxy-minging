@@ -2,7 +2,6 @@
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
 - https://sjc.hief.store/api/v1/client/subscribe?token=b30dad4bd5475bdb2482317501e24d9e
 - https://sjc.hief.store/api/v1/client/subscribe?token=c35be70a3b3274b97650ea5bb0cea865
-- https://sub.femboy.us.ci/?url=freenodes
 - https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1
 - https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1&placeholder=2&placeholder=3
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
@@ -40,8 +39,6 @@ clash订阅:
 - https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 - https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=7229d85aecbb29642e3b00c395efd561
 - https://update.glados-config.com/clash/799145/65db849/308751/glados.yaml
-- https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fupdate.glados-config.com%2Fmihomo%2F799145%2F65db849%2F308751%2Fglados.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fcmliu%2FACL4SSR%2Fmain%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-- https://v2clash.blog/Link/20261031-clash.yaml
 - https://zhuhai.uk/subs/TG-%40dns68-b7b231cc6d3f.yaml
 v2订阅:
 - https://app.sublink.works/x/8o8ZArd
@@ -50,9 +47,8 @@ v2订阅:
 - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
 - https://jikun.zmxoo.xyz/subapi?token=free_K9mP2xQ7vL4tR8n&placeholder=1
 - https://jikun.zmxoo.xyz/subapi?token=free_K9mP2xQ7vL4tR8n&placeholder=1&placeholder=2&placeholder=3
-- https://jikun.zmxoo.xyz/subapi?token=free_QCst7sVi4WqcsqY&placeholder=1
-- https://jikun.zmxoo.xyz/subapi?token=free_T6pR9vK3mX8qL2n&placeholder=1
-- https://jikun.zmxoo.xyz/subapi?token=free_T6pR9vK3mX8qL2n&placeholder=1&placeholder=2&placeholder=3
+- https://jikun.zmxoo.xyz/subapi?token=free_W4xN7qP9mK2vL5t&placeholder=1
+- https://jikun.zmxoo.xyz/subapi?token=free_W4xN7qP9mK2vL5t&placeholder=1&placeholder=2&placeholder=3
 - https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt?s=09#Anonymous-Multi
 - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 - https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt#vpn
@@ -66,6 +62,10 @@ v2订阅:
 - https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 - https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output_iran/iran_top100_checked.txt
 - https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- https://raw.githubusercontent.com/v2rayCrow/FreeConfig/main/335config%40v2rayCrow.txt#v2rayCrow
+- https://raw.githubusercontent.com/v2rayCrow/FreeConfig/main/359config%40v2rayCrow.txt
+- https://raw.githubusercontent.com/v2rayCrow/Sub-Link-Output/main/all.txt#v2sourceALL
+- https://raw.githubusercontent.com/v2rayCrow/Sub-Link-Output/main/sub.txt#v2sourceSUB
 - https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify.txt
 - https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify1.txt
 - https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
