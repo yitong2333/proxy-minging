@@ -1,10 +1,7 @@
 机场订阅:
 - https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fscyydsbgw.xm-pass.one%2Ffeed%2F13950ca49a6edcf2fffe26b0ba8ab46f&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&diydns=true&emoji=true&list=false&xudp=false&udp=true&tfo=false&expand=true&scv=true&fdn=false&new_name=true&diyua=clash.meta%2F1.19.0
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
-- https://sjc.hief.store/api/v1/client/subscribe?token=b30dad4bd5475bdb2482317501e24d9e
 - https://sjc.hief.store/api/v1/client/subscribe?token=c35be70a3b3274b97650ea5bb0cea865
-- https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1
-- https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1&placeholder=2&placeholder=3
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
@@ -24,10 +21,10 @@ clash订阅:
 - https://nodebuf.com/node-sub/87397a7d8116ae1e7f0507b693d07b18c74be3f603d3f07998a172d2026ed957/mihomo
 - https://nodebuf.com/node-sub/8c74fd973792b4cb95de3189da0f8ef0b63ce39fcb89ad3f30f8e95f8d4ca765/mihomo
 - https://nodebuf.com/node-sub/93f72805dbfee3e48f6952be89511f7bae54f7bd485e85901cc463de9bdb3e5e/mihomo
+- https://nodebuf.com/node-sub/94c31dcfbe4fbd237161c6ef4aa5d2872a25d64741a3994e4d07601bb94b2883/mihomo
 - https://nodebuf.com/node-sub/94e446539e98575155c73095ec5e2b80f8bf71be313ccf305840de447e6127c5/mihomo
 - https://nodebuf.com/node-sub/be91b347451d75687ca8b9ca59a58cacb223821d80ae87b2b526743967bd4306/mihomo
 - https://nodebuf.com/node-sub/c0582513cc5660794fcdec21027fab130a617c01c79e56061d44ea610effb206/mihomo
-- https://nodebuf.com/node-sub/c1e3d24ad9fd5f9b6463b878d4b31ffd5d894e98e6f5d6ddca90ea85d22fd8e1/mihomo
 - https://nodebuf.com/node-sub/cb3516bd5d01aafd320ae66d1698dca4eeeb5413e57d832ddbd9061c81ede470/mihomo
 - https://nodebuf.com/node-sub/dd332749aa9dd6ff858664f8dad14d28e3944562af33f4a7b0981114df55cdca/mihomo
 - https://nodebuf.com/node-sub/e853694ffec780b32dda311da54344009803cd10856c3f7780fda06a871f0e13/mihomo
@@ -42,7 +39,7 @@ clash订阅:
 - https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=7229d85aecbb29642e3b00c395efd561
 - https://zhuhai.uk/subs/TG-%40dns68-b7b231cc6d3f.yaml
 v2订阅:
-- https://app.sublink.works/x/OX6yTXl
+- https://app.sublink.works/x/fhIAmbk
 - https://app.sublink.works/x/nvAlVIw
 - https://app.sublink.works/x/p4Crakd
 - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
@@ -72,3 +69,5 @@ v2订阅:
 - https://shadowmere.xyz/api/b64sub/
 - https://sub.vlessfo.ru/vlessforu/working_configs.txt
 - https://xiaokun.zmxoo.xyz/subapi?token=free_FzTF6OR3vGPUTI6&placeholder=1
+- https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1
+- https://xiaokun.zmxoo.xyz/subapi?token=free_KjVlgze9jAEg5Wq&placeholder=1&placeholder=2&placeholder=3
