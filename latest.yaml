@@ -1,11 +1,14 @@
 机场订阅:
-- https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fscyydsbgw.xm-pass.one%2Ffeed%2F13950ca49a6edcf2fffe26b0ba8ab46f&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&diydns=true&emoji=true&list=false&xudp=false&udp=true&tfo=false&expand=true&scv=true&fdn=false&new_name=true&diyua=clash.meta%2F1.19.0
+- https://144.34.150.72:4500/api/v1/client/subscribe?token=d95bdc691251d178ec83d083a07a9ebb
+- https://jikun.zmxoo.xyz/subapi?token=free_R7nK4pL9xM2vQ8t&placeholder=1
+- https://jikun.zmxoo.xyz/subapi?token=free_R7nK4pL9xM2vQ8t&placeholder=1&placeholder=2&placeholder=3
 - https://jsjc.cfd/api/v1/client/subscribe?token=06a911477d3b0db499f510c7e72d4840
 - https://leviko-teraidery.ir:443/sub/QNXskFjnLKfQhuxVBsbl0KNtqjaPAjwE5xQI
 - https://route77.online/sub/djMsODc4NzQsMTc5NDkyNjQ5MQ.FkSk0hYIfJcIiee16oYIWoZmREkVegRHjsMJzQfVww8
 - https://route77.online/sub/djMsODc4NzQsMTc5NDkyNjQ5MQ.FkSk0hYIfJcIiee16oYIWoZmREkVegRHjsMJzQfVww8#v2pedia
 - https://www.yfjc.xyz/api/v1/client/subscribe?token=e1054c0d6d600e4963558b1f5d779608
 - https://www.yfjc.xyz/api/v1/client/subscribe?token=e1054c0d6d600e4963558b1f5d779608#AVToday.io
+- https://xiaokun.zmxoo.xyz/subapi?token=free_F7OhV0FJv2QeQAT&placeholder=1&placeholder=2&placeholder=3
 - https://xship.2fa.cat/v1/subscribe?starlink=aZ1814paAe56zSCvyL0_Ol23
 clash订阅:
 - https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
@@ -20,9 +23,9 @@ clash订阅:
 - https://nodebuf.com/node-sub/3a92f10ffe211626066bc2ca3839e7468e68d8416b03f74a8627796833d1bf0b/mihomo
 - https://nodebuf.com/node-sub/3da05ac715547f51833f60cec2fcf7ea90fd0dcf520566d1109d5894533c49d1/mihomo
 - https://nodebuf.com/node-sub/46c297f23c9cdf7ba04c64aa8e9187f9a16e1fb6097e30f61b51ae8aa0d5778a/mihomo
+- https://nodebuf.com/node-sub/7a4a7adda20c6ff24b8aed19cef1c529d6f07dc86c5c867ea7907cc8207691f7/mihomo
 - https://nodebuf.com/node-sub/80f00307bab2aadb36ab7262f7e91f74997f6fead5ac17e4e54f4e9acb282b5e/mihomo
 - https://nodebuf.com/node-sub/8c74fd973792b4cb95de3189da0f8ef0b63ce39fcb89ad3f30f8e95f8d4ca765/mihomo
-- https://nodebuf.com/node-sub/93f72805dbfee3e48f6952be89511f7bae54f7bd485e85901cc463de9bdb3e5e/mihomo
 - https://nodebuf.com/node-sub/94c31dcfbe4fbd237161c6ef4aa5d2872a25d64741a3994e4d07601bb94b2883/mihomo
 - https://nodebuf.com/node-sub/94e446539e98575155c73095ec5e2b80f8bf71be313ccf305840de447e6127c5/mihomo
 - https://nodebuf.com/node-sub/a5ae81e88a4d8230721c1331eab3a59e928f7e30f389d16c93d25edb745e2359/mihomo
@@ -46,7 +49,6 @@ v2订阅:
 - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
 - https://jikun.zmxoo.xyz/subapi?token=free_B7QXKIQx3jy8aIg&placeholder=1
 - https://jikun.zmxoo.xyz/subapi?token=free_B7QXKIQx3jy8aIg&placeholder=1&placeholder=2&placeholder=3
-- https://jikun.zmxoo.xyz/subapi?token=free_H8kR3mP6vN9qX2t&placeholder=1&placeholder=2&placeholder=3
 - https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt?s=09#Anonymous-Multi
 - https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt#vpn
 - https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub
@@ -67,5 +69,4 @@ v2订阅:
 - https://sub.vlessfo.ru/vlessforu/working_configs.txt
 - https://xiaokun.zmxoo.xyz/subapi?token=free_FzTF6OR3vGPUTI6&placeholder=1
 - https://xiaokun.zmxoo.xyz/subapi?token=free_zQ4vP7yD3kX8gS6&placeholder=1
-- https://xiaokun.zmxoo.xyz/subapi?token=free_zQ4vP7yD3kX8gS6&placeholder=1&placeholder=2&placeholder=3
 - https://zhuhai.uk/subs/TG-%40dns68-9bd7995b3862.txt
